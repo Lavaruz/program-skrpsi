@@ -27,6 +27,10 @@
     <div class="main-api">
       <div class="api-block">
         <h2>Memanggil POST analyze endpoint</h2>
+        <p>
+          berikut cara memanggil API menggunakan bahasa pemrograman javascript
+          dengan fetch API:
+        </p>
         <pre>
           <code>
             const requestBody = {
@@ -51,7 +55,13 @@
           </code>
         </pre>
       </div>
-      <div class="api-cloud"></div>
+      <div class="api-accuracy">
+        <h2>Accuracy of model</h2>
+        <div class="api-accuracy-result"></div>
+        <p>
+          *this accuracy get from compare between training model and test model
+        </p>
+      </div>
     </div>
     <div class="main-csv">
       <h2>Multiple analyze with CSV</h2>
@@ -67,13 +77,32 @@
       </form>
     </div>
   </main>
+  <div class="analyze-layer">
+    <div class="analyze-bg"></div>
+  </div>
+  <div class="analyze-layer-csv">
+    <div class="analyze-bg-csv">
+      <span class="close">X</span>
+      <table id="ulasanTable">
+        <thead>
+          <th>No</th>
+          <th>Ulasan</th>
+          <th>Sentiment</th>
+        </thead>
+      </table>
+    </div>
+  </div>
+
+  <!-- HISTORY ANALYZE -->
+  <div class="analyze-history">
+    <h2>History Analisis</h2>
+  </div>
 </body>
 <script>
   $(document).ready(() => {
     $("#analyze-form").submit(function (e) {
       e.preventDefault();
       const form = new FormData(document.getElementById("analyze-form"));
-
       $.ajax({
         url: "/api/analyze",
         type: "POST",
@@ -84,19 +113,46 @@
         encrypt: "multipart/form-data",
         processData: false,
         success: (response) => {
-          console.log(response);
+          $(".analyze-bg").html("");
+          $(".analyze-bg").prepend([
+            `
+              <p>ulasan: "${response.ulasan}"</p>
+              ${
+                response.sentiment == "positive"
+                  ? `<p>hasil: <b style="color: green">${response.sentiment}</b></p>`
+                  : `<p>hasil: <b style="color: red">${response.sentiment}</b></p>`
+              }
+              <button class="analyze-button">OK</button>
+            `,
+          ]);
+          $(".analyze-layer").css("visibility", "visible");
         },
       });
     });
+    $(".analyze-layer").on("click", ".analyze-button", function () {
+      $(".analyze-layer").css("visibility", "hidden");
+    });
+
+    // ANALYZE ACCURACY
+    const url = "/api/analyze";
+    let datas;
+    $.get(url, async (data, status) => {
+      if (status == "success") {
+        $(".api-accuracy-result").append([`<h1>${data}</h1>`]);
+      }
+    });
 
     //CSV ANALYZE
+    $(".analyze-bg-csv .close").click(function () {
+      $(".analyze-layer-csv").css("visibility", "hidden");
+    });
     const fileUpload = document.getElementById("fileUpload");
     fileUpload.addEventListener("submit", (e) => {
       e.preventDefault();
       let formData = new FormData(fileUpload);
 
       $.ajax({
-        url: "/api/utils/upload",
+        url: "/api/analyze/csv",
         type: "POST",
         data: formData,
         async: false,
@@ -105,13 +161,29 @@
         encrypt: "multipart/form-data",
         processData: false,
         success: (response) => {
-          console.log(response.payload.datas);
+          $(".analyze-layer-csv").css("visibility", "visible");
+          $("#ulasanTable").DataTable({
+            data: response,
+            pageLength: 5,
+            lengthMenu: [
+              [20, 50, 100, 200, -1],
+              [20, 50, 100, 200, "Semua"],
+            ],
+            columns: [
+              {
+                data: null,
+                render: function (data, type, row, meta) {
+                  return meta.row + meta.settings._iDisplayStart + 1;
+                },
+              },
+              { data: "ulasan" },
+              { data: "result" },
+            ],
+          });
         },
       });
     });
   });
-</script>
-<script>
   hljs.highlightAll();
 </script>
 <%- include('./layouts/footer'); -%>

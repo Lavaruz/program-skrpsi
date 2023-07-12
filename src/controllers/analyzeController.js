@@ -2,6 +2,10 @@ const natural = require("natural");
 const tokenizer = new natural.WordTokenizer();
 const stopwords = require("natural/lib/natural/util/stopwords_id");
 const processedData = require("../../data/output.json");
+const response = require("./response");
+const csv = require("fast-csv");
+const fs = require("fs");
+const path = require("path");
 
 const totalTrainingExamples = processedData.length;
 const classCounts = {};
@@ -108,13 +112,53 @@ async function analyzeAccuracy(req, res) {
   const labels = processedData.map((item) => item.sentiment);
   // Menghitung akurasi
   const accuracy = calculateAccuracy(predictions, labels);
-  console.log("Akurasi:", accuracy, "%");
-  res.send(`Accuracy : ${accuracy}%`);
+  res.send(`${accuracy}%`);
+}
+
+async function uploadCSV(req, res) {
+  try {
+    const ulasan = [];
+    fs.createReadStream(
+      path.join(
+        __dirname,
+        "..",
+        "..",
+        "public",
+        "files",
+        "uploads",
+        req.files[0].filename
+      )
+    ).pipe(
+      csv
+        .parse({ headers: true })
+        .on("data", (row) => {
+          ulasan.push(row);
+        })
+        .on("end", () => {
+          let list_ulasan = ulasan.map((ulas) => {
+            return classify(ulas.ulasan);
+          });
+          let obj = ulasan.map((ulas, index) => {
+            return {
+              ulasan: ulas.ulasan,
+              result: list_ulasan[index],
+            };
+          });
+
+          res.json(obj);
+        })
+    );
+  } catch (error) {
+    res.status(400).json({
+      error: error.message,
+    });
+  }
 }
 
 module.exports = {
   analyzeRequest,
   analyzeAccuracy,
+  uploadCSV,
 };
 
 // Contoh pengujian pada data uji
