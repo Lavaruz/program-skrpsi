@@ -196,3 +196,14 @@ input[type="file"] {
   text-transform: uppercase;
   font-weight: bold;
 } */
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  background-color: #3f2305;
+  color: #f2ead3;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
