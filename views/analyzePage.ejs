@@ -1,0 +1,117 @@
+<%- include('./layouts/header'); -%>
+<body>
+  <nav>
+    <div class="nav-brand">
+      <h3>Analisis Sentimen API</h3>
+    </div>
+  </nav>
+  <main>
+    <div class="main-analyze">
+      <div class="main-head">
+        <h1>Analyze Your Sentiment</h1>
+        <p>
+          We're GitHub, the company behind the npm Registry and npm CLI. We
+          offer those to the community for free, but our day job is building and
+          selling useful tools for developers like you.
+        </p>
+      </div>
+      <div class="main-body">
+        <form id="analyze-form">
+          <input type="text" name="review" value="bagus" />
+          <button type="submit">Analyze</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- API INFO -->
+    <div class="main-api">
+      <div class="api-block">
+        <h2>Memanggil POST analyze endpoint</h2>
+        <pre>
+          <code>
+            const requestBody = {
+              review: "Ulasan sebuah produk"
+            };
+            
+            fetch('http://localhost:3000/api/analyze', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json'
+              },
+              body: JSON.stringify(requestBody)
+            })
+              .then(response => response.json())
+              .then(data => {
+                console.log(data);
+              })
+              .catch(error => {
+                console.log('Terjadi kesalahan:', error);
+              });
+            
+          </code>
+        </pre>
+      </div>
+      <div class="api-cloud"></div>
+    </div>
+    <div class="main-csv">
+      <h2>Multiple analyze with CSV</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, qui.
+        Commodi rerum facilis aut esse magni voluptatem aliquam temporibus
+        excepturi blanditiis molestiae tenetur, tempora, ea magnam consequatur
+        aliquid quia asperiores?
+      </p>
+      <form id="fileUpload">
+        <input type="file" name="review" />
+        <button type="submit">Analyze</button>
+      </form>
+    </div>
+  </main>
+</body>
+<script>
+  $(document).ready(() => {
+    $("#analyze-form").submit(function (e) {
+      e.preventDefault();
+      const form = new FormData(document.getElementById("analyze-form"));
+
+      $.ajax({
+        url: "/api/analyze",
+        type: "POST",
+        data: form,
+        async: false,
+        cache: false,
+        contentType: false,
+        encrypt: "multipart/form-data",
+        processData: false,
+        success: (response) => {
+          console.log(response);
+        },
+      });
+    });
+
+    //CSV ANALYZE
+    const fileUpload = document.getElementById("fileUpload");
+    fileUpload.addEventListener("submit", (e) => {
+      e.preventDefault();
+      let formData = new FormData(fileUpload);
+
+      $.ajax({
+        url: "/api/utils/upload",
+        type: "POST",
+        data: formData,
+        async: false,
+        cache: false,
+        contentType: false,
+        encrypt: "multipart/form-data",
+        processData: false,
+        success: (response) => {
+          console.log(response.payload.datas);
+        },
+      });
+    });
+  });
+</script>
+<script>
+  hljs.highlightAll();
+</script>
+<%- include('./layouts/footer'); -%>

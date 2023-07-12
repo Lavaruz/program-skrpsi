@@ -1,0 +1,6271 @@
+[
+  {
+    "review": [
+      "dua",
+      "kali",
+      "beli",
+      "sayang",
+      "lambat",
+      "respon",
+      "order",
+      "pagi",
+      "kirim",
+      "sore",
+      "respon",
+      "respon",
+      "itu",
+      "kirim",
+      "besok",
+      "barang",
+      "bagus",
+      "sesuai",
+      "harga"
+    ],
+    "sentiment": "negative"
+  },
+  { "review": ["bagus", "kirim", "cepat"], "sentiment": "positive" },
+  { "review": ["barang", "sesuai", "pesan"], "sentiment": "positive" },
+  { "review": ["panas", "pakai"], "sentiment": "positive" },
+  {
+    "review": [
+      "barang",
+      "sesuai",
+      "minta",
+      "bagus",
+      "komunikasi",
+      "jual",
+      "beli",
+      "pro",
+      "aktif"
+    ],
+    "sentiment": "negative"
+  },
+  { "review": ["bagus", "masker"], "sentiment": "positive" },
+  {
+    "review": [
+      "pengirimn",
+      "cepat",
+      "produk",
+      "bagus",
+      "konsumen",
+      "suka",
+      "makasih"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["barang", "sesuai", "pesan", "kirim", "cepat"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "proses",
+      "barang",
+      "jemput",
+      "kurir",
+      "banget",
+      "anjas",
+      "pokok"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": ["mantabspesan", "warna", "hitam", "putih", "pink"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "kirim",
+      "cepat",
+      "sesuai",
+      "pesan",
+      "respon",
+      "jual",
+      "cepat",
+      "ramah"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["barang", "terima", "sesuai", "pesan", "aman"],
+    "sentiment": "positive"
+  },
+  { "review": ["tidak", "ada", "komentar"], "sentiment": "positive" },
+  {
+    "review": [
+      "kecewa",
+      "berat",
+      "masker",
+      "hijab",
+      "warna",
+      "hitam",
+      "tali",
+      "masker",
+      "gampang",
+      "putus",
+      "tali",
+      "masker",
+      "pendek"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": ["kirim", "sesuai", "estimasi", "baik"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "karet",
+      "headloop",
+      "nya",
+      "pendek",
+      "istri",
+      "pakai",
+      "untung",
+      "anak"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": ["barang", "bagus", "hrga", "murah", "layan", "muas"],
+    "sentiment": "positive"
+  },
+  { "review": ["bagus", "barang", "sesuai"], "sentiment": "positive" },
+  { "review": ["tidak", "ada", "komentar"], "sentiment": "positive" },
+  {
+    "review": [
+      "masker",
+      "medis",
+      "lumayan",
+      "cepat",
+      "tuju",
+      "harga",
+      "murah",
+      "barang",
+      "murahansmoga",
+      "masker",
+      "medis",
+      "nya",
+      "manfaat"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "sesuai",
+      "pesan",
+      "packing",
+      "kirim",
+      "cepat",
+      "terima",
+      "kasih",
+      "ya"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["sesuai", "harga"], "sentiment": "positive" },
+  { "review": ["kirim", "cepat", "barang", "sesuai"], "sentiment": "positive" },
+  { "review": ["sesuai", "pesan", "sip"], "sentiment": "positive" },
+  { "review": ["nice", "one"], "sentiment": "positive" },
+  { "review": ["sesuai", "pesan"], "sentiment": "positive" },
+  { "review": ["barang", "rumah"], "sentiment": "positive" },
+  {
+    "review": ["proses", "nya", "cepat", "thanks", "gan"],
+    "sentiment": "positive"
+  },
+  { "review": ["barang", "sesuai", "pesan"], "sentiment": "positive" },
+  {
+    "review": ["kirim", "nya", "cepat", "barang", "aman", "rusa"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "masker",
+      "favorite",
+      "senang",
+      "beli",
+      "official",
+      "store",
+      "jamin"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "packingan",
+      "bagus",
+      "rapi",
+      "bubblewrap",
+      "kirim",
+      "cepat",
+      "sesuai",
+      "janji",
+      "besok",
+      "puas"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["kualitas", "okpengiriman", "cepat", "bangetdapet", "cashback"],
+    "sentiment": "positive"
+  },
+  { "review": ["barang", "sesuai", "pesan", "cepat"], "sentiment": "positive" },
+  { "review": ["barang", "asli", "evorecomended"], "sentiment": "positive" },
+  {
+    "review": ["pesan", "masker", "warna", "hijau", "datang", "warna", "pink"],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "order",
+      "emas",
+      "bagus",
+      "cepat",
+      "moga",
+      "tambah",
+      "warna",
+      "cute",
+      "ya"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["pilih", "no", "masker", "medis", "keluarga"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "packing",
+      "fisik",
+      "barang",
+      "rapi",
+      "safety",
+      "terima",
+      "kasih",
+      "souvenir",
+      "nya"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["bagus"], "sentiment": "positive" },
+  { "review": ["langgan"], "sentiment": "positive" },
+  { "review": ["suka", "rapat", "nyaman", "banget"], "sentiment": "positive" },
+  {
+    "review": [
+      "proses",
+      "cepat",
+      "respon",
+      "jual",
+      "ramah",
+      "packaging",
+      "rapi",
+      "mantaaaaaapp"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["good", "quality", "percaya"], "sentiment": "positive" },
+  {
+    "review": ["kirim", "cepat", "bandung", "mantap"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "respon",
+      "cepat",
+      "packing",
+      "rapi",
+      "kirim",
+      "barang",
+      "sesuai"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "produk",
+      "asli",
+      "bungkus",
+      "plastik",
+      "segel",
+      "mahal",
+      "toko",
+      "jamin",
+      "kualitas"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["bagus"], "sentiment": "positive" },
+  { "review": ["recomended"], "sentiment": "positive" },
+  { "review": ["kirim", "nya", "cepat"], "sentiment": "positive" },
+  {
+    "review": ["re", "order", "sekian", "kali", "mantap", "puas", "order"],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["barang", "terima", "terima", "kasih"],
+    "sentiment": "positive"
+  },
+  { "review": ["barang", "baguz", "cepat"], "sentiment": "positive" },
+  { "review": ["rugi", "beli", "toko", "rekomended"], "sentiment": "positive" },
+  { "review": ["tidak", "ada", "komentar"], "sentiment": "positive" },
+  { "review": ["mantul"], "sentiment": "positive" },
+  {
+    "review": ["bungkus", "plastik", "sealed", "debu", "kotor"],
+    "sentiment": "negative"
+  },
+  { "review": ["sippp", "beli"], "sentiment": "positive" },
+  { "review": ["manstap"], "sentiment": "positive" },
+  { "review": ["barang", "terima"], "sentiment": "positive" },
+  { "review": ["baik"], "sentiment": "positive" },
+  { "review": ["tidak", "ada", "komentar"], "sentiment": "positive" },
+  {
+    "review": ["warna", "kalem", "pakai", "bini", "sesuai", "baju"],
+    "sentiment": "positive"
+  },
+  { "review": ["tooopp", "puuaaassss"], "sentiment": "positive" },
+  {
+    "review": ["barang", "sesuai", "pesan", "bagus", "kirim"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "bagus",
+      "rapi",
+      "foto",
+      "langsung",
+      "pakai",
+      "tali",
+      "gampang",
+      "putus",
+      "relatif",
+      "sakit",
+      "telinga",
+      "terima",
+      "kasih",
+      "ya"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["ok"], "sentiment": "positive" },
+  { "review": ["packing", "rapi", "respon", "cepat"], "sentiment": "positive" },
+  {
+    "review": ["mantap", "jiwa", "moga", "harga", "turun"],
+    "sentiment": "positive"
+  },
+  { "review": ["next", "order"], "sentiment": "positive" },
+  { "review": ["kualitas", "bagus", "abal"], "sentiment": "positive" },
+  { "review": ["rekomendasi", "kurir"], "sentiment": "positive" },
+  {
+    "review": [
+      "langgan",
+      "beli",
+      "masker",
+      "kualitas",
+      "masker",
+      "bagus",
+      "kirim",
+      "cepat",
+      "harga",
+      "affordable",
+      "thank",
+      "you"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "paket",
+      "sesuai",
+      "gambar",
+      "skripsi",
+      "kirim",
+      "cepatrecomended",
+      "seller"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "semenjak",
+      "wabah",
+      "landa",
+      "beli",
+      "masker",
+      "medis",
+      "toko",
+      "rekomendasi",
+      "banget",
+      "terimakasih"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["beda", "merk", "brgnya", "kes", "mudah", "an"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "order",
+      "pagi",
+      "bada",
+      "isya",
+      "loh",
+      "mantap",
+      "pis",
+      "terima",
+      "kasih",
+      "ya",
+      "gan",
+      "sukses",
+      "lapak",
+      "moga",
+      "barokah"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "box",
+      "rapi",
+      "packing",
+      "rapi",
+      "barang",
+      "sesuai",
+      "gambar",
+      "seller",
+      "respon",
+      "customer"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["mantap", "thanks"], "sentiment": "positive" },
+  { "review": ["tidak", "ada", "komentar"], "sentiment": "positive" },
+  {
+    "review": ["barang", "bagus", "sesuai", "deskripsimakasih"],
+    "sentiment": "positive"
+  },
+  { "review": ["order"], "sentiment": "positive" },
+  { "review": ["original", "tebal", "nyaman"], "sentiment": "positive" },
+  { "review": ["ok", "banget"], "sentiment": "positive" },
+  {
+    "review": [
+      "tipis",
+      "sih",
+      "ragu",
+      "banding",
+      "type",
+      "jenis",
+      "ply",
+      "ply"
+    ],
+    "sentiment": "negative"
+  },
+  { "review": ["masker", "plastik", "masuk", "dus"], "sentiment": "positive" },
+  {
+    "review": [
+      "paket",
+      "komplit",
+      "seller",
+      "fast",
+      "responramahbarang",
+      "mantaprekomendasi",
+      "baik",
+      "deh",
+      "belanja",
+      "mantaf"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["oke", "banget", "enak", "pakai", "cepat"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "overall",
+      "produk",
+      "ok",
+      "nyaman",
+      "pakai",
+      "seharihari",
+      "sayang",
+      "packagingnya",
+      "kardus",
+      "penyok",
+      "sisi",
+      "segel",
+      "rapi"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "masker",
+      "sesuai",
+      "hari",
+      "enak",
+      "pakai",
+      "mudah",
+      "napas",
+      "cuman",
+      "warna",
+      "putih",
+      "banget",
+      "nerawangnya",
+      "kayak",
+      "tipis"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["barang", "kondisi", "bagus", "kirim"],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["barang", "bagus", "sesuai", "deskripsi"],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["barang", "ok", "sesuai", "deskripsi", "kirim", "cepat"],
+    "sentiment": "positive"
+  },
+  { "review": ["puas", "bgtthank", "seller"], "sentiment": "positive" },
+  { "review": ["mantap"], "sentiment": "positive" },
+  {
+    "review": ["mantap", "beli", "harga", "turun", "thanks"],
+    "sentiment": "positive"
+  },
+  { "review": ["lumayan", "bagus", "harga", "murah"], "sentiment": "positive" },
+  { "review": ["kirim", "cepat", "barang", "sesuai"], "sentiment": "positive" },
+  { "review": ["tidak", "ada", "komentar"], "sentiment": "positive" },
+  { "review": ["kirim", "cepat", "admin", "ramah"], "sentiment": "positive" },
+  {
+    "review": ["barang", "sesuai", "deskripsi", "kirim", "cepat", "banget"],
+    "sentiment": "positive"
+  },
+  { "review": ["bagus"], "sentiment": "positive" },
+  {
+    "review": ["kirim", "cepat", "respon", "jual", "oke"],
+    "sentiment": "positive"
+  },
+  { "review": ["masker", "tipis", "ya", "bunda"], "sentiment": "negative" },
+  { "review": ["bagusssss", "murah"], "sentiment": "positive" },
+  { "review": ["sesuai", "cepat"], "sentiment": "positive" },
+  { "review": ["tidak", "ada", "komentar"], "sentiment": "positive" },
+  { "review": ["terima", "kasih"], "sentiment": "positive" },
+  { "review": ["tidak", "ada", "komentar"], "sentiment": "positive" },
+  { "review": ["layan", "toko", "produk", "bagus"], "sentiment": "positive" },
+  {
+    "review": ["baguuussss", "sesuai", "rapi", "kemas"],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["ukur", "karet", "besar", "muka", "kadang", "masker", "merosot"],
+    "sentiment": "positive"
+  },
+  { "review": ["bagus", "boxnya"], "sentiment": "positive" },
+  { "review": ["ok", "banget", "kualitas", "proses"], "sentiment": "positive" },
+  {
+    "review": [
+      "for",
+      "nonmedical",
+      "use",
+      "its",
+      "ok",
+      "deskripsi",
+      "sesuai",
+      "asli"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "kualitas",
+      "masker",
+      "jelek",
+      "masker",
+      "bolong",
+      "jahit",
+      "isi",
+      "ply",
+      "kalo",
+      "jual",
+      "bos"
+    ],
+    "sentiment": "negative"
+  },
+  { "review": ["size", "telinga"], "sentiment": "negative" },
+  { "review": ["masker", "bagus", "kecil", "wajah"], "sentiment": "positive" },
+  { "review": ["kirim", "bagus", "barang", "sesuai"], "sentiment": "positive" },
+  { "review": ["lumanyan"], "sentiment": "positive" },
+  { "review": ["mantap"], "sentiment": "positive" },
+  {
+    "review": [
+      "barang",
+      "cepat",
+      "estimasi",
+      "seller",
+      "responsif",
+      "packaging",
+      "oke",
+      "barang",
+      "lengkap",
+      "utuh",
+      "terima",
+      "kasih"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["mantul", "fast", "respon", "kirim", "cepat"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "sesuai",
+      "foto",
+      "kualitas",
+      "bagus",
+      "banget",
+      "range",
+      "harga",
+      "langgan",
+      "deh"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "langgan",
+      "cuman",
+      "mesan",
+      "kemarin",
+      "lumayan",
+      "tunda",
+      "hari",
+      "kirim"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["mantap", "pesan"], "sentiment": "positive" },
+  {
+    "review": [
+      "respon",
+      "cepat",
+      "kirim",
+      "kilat",
+      "barang",
+      "sesuai",
+      "mantaps"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["mantap", "beli"], "sentiment": "positive" },
+  { "review": ["proses", "cepatproduct", "sesuai"], "sentiment": "positive" },
+  { "review": ["kirim", "cepatmakasih"], "sentiment": "positive" },
+  { "review": ["kirim", "cepat", "barang", "bagus"], "sentiment": "positive" },
+  {
+    "review": [
+      "barang",
+      "selamat",
+      "packing",
+      "rapi",
+      "kirim",
+      "cepat",
+      "kurrir",
+      "ramah",
+      "seller",
+      "fast",
+      "respon",
+      "recommended",
+      "pokok",
+      "nya"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["langgan", "masker", "mantap"], "sentiment": "positive" },
+  {
+    "review": [
+      "barang",
+      "mantap",
+      "respon",
+      "cepattoko",
+      "recommended",
+      "belanja",
+      "pesan",
+      "langusng",
+      "dikirimbelanja",
+      "nya"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "fast",
+      "respon",
+      "order",
+      "jm",
+      "sore",
+      "langsung",
+      "kirim",
+      "pakai",
+      "gosend"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["belanja", "pokok", "mantap"], "sentiment": "positive" },
+  { "review": ["mantap", "kali"], "sentiment": "positive" },
+  {
+    "review": ["kirim", "cepat", "bareng", "sesuai", "pic", "tq"],
+    "sentiment": "positive"
+  },
+  { "review": ["good"], "sentiment": "positive" },
+  { "review": ["barang", "sesuai", "tawar"], "sentiment": "positive" },
+  {
+    "review": [
+      "proses",
+      "cepat",
+      "barang",
+      "sesuai",
+      "deskripsi",
+      "packing",
+      "box",
+      "bubble",
+      "wrap"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["kali", "beli", "mantap", "cepat"], "sentiment": "positive" },
+  {
+    "review": ["emas", "bagus", "banget", "sip", "terima", "kasih"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "kaliny",
+      "beli",
+      "kirim",
+      "cepat",
+      "barang",
+      "oke",
+      "segel",
+      "on",
+      "recommended"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "admin",
+      "nya",
+      "ramah",
+      "ditanyain",
+      "ditawarin",
+      "cancel",
+      "barang",
+      "kalo",
+      "produk",
+      "sih",
+      "bagus",
+      "orisinal",
+      "aman",
+      "toko",
+      "keramean",
+      "kali",
+      "ya",
+      "nya",
+      "suruh",
+      "cancel",
+      "konsumen",
+      "nya",
+      "jual",
+      "tingkat",
+      "service",
+      "nya"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["bagus", "sip"], "sentiment": "positive" },
+  {
+    "review": ["fast", "respon", "packaging", "bagus", "tq"],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["puass", "banget", "masker", "onemed", "kualitas"],
+    "sentiment": "positive"
+  },
+  { "review": ["late", "delivery", "brng", "ok"], "sentiment": "positive" },
+  { "review": ["sesuai"], "sentiment": "positive" },
+  {
+    "review": [
+      "emas",
+      "cepat",
+      "masker",
+      "andal",
+      "pesawat",
+      "bonus",
+      "masker",
+      "lumayan",
+      "thank",
+      "you",
+      "seller"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "barang",
+      "bagus",
+      "packingnya",
+      "topmarkotop",
+      "alias",
+      "mantul",
+      "puas",
+      "minggu",
+      "beli",
+      "bonus",
+      "tambah",
+      "ya",
+      "thanks"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "barang",
+      "cepat",
+      "recommended",
+      "seller",
+      "masker",
+      "kf",
+      "mmasker",
+      "nya",
+      "ketat",
+      "aman",
+      "sakit",
+      "telinga",
+      "pakai",
+      "jam",
+      "thankyou",
+      "bonus",
+      "seller"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["niattt", "banget", "vacum", "beli", "suka", "banget"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "cepat",
+      "toko",
+      "percaya",
+      "beli",
+      "masker",
+      "mmakasih",
+      "bonus",
+      "pouch",
+      "masker"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "beli",
+      "kali",
+      "packing",
+      "mantab",
+      "masker",
+      "asli",
+      "tani",
+      "terbang",
+      "jam",
+      "sukses",
+      "sehat"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["ok"], "sentiment": "positive" },
+  {
+    "review": [
+      "beda",
+      "pesan",
+      "nampaknya",
+      "import",
+      "china",
+      "bonus",
+      "beli",
+      "auto",
+      "star",
+      "thank",
+      "youu",
+      "gann"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "pesan",
+      "cepat",
+      "proses",
+      "sayang",
+      "kurir",
+      "banget",
+      "packing",
+      "rapi",
+      "aman",
+      "free",
+      "pouch",
+      "masker",
+      "terima",
+      "kasih"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "very",
+      "fast",
+      "response",
+      "barang",
+      "ok",
+      "banget",
+      "good",
+      "job"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["mantab", "bosssku", "terimakasih"], "sentiment": "positive" },
+  { "review": ["sesuai", "pict", "barang", "bagus"], "sentiment": "positive" },
+  {
+    "review": ["masker", "terima", "terima", "kasih"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "belanja",
+      "toko",
+      "cepat",
+      "kirim",
+      "packing",
+      "rapi",
+      "kualitas",
+      "barang",
+      "sesuai",
+      "deskripsi"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["murah", "murah", "cucu", "suka", "pakai", "nya"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "fast",
+      "respon",
+      "kirim",
+      "cepat",
+      "sayang",
+      "box",
+      "khusus",
+      "hijab",
+      "penyok",
+      "penyok",
+      "sobek",
+      "kasih",
+      "note",
+      "terang",
+      "box",
+      "lipat",
+      "sajakrn",
+      "jual",
+      "pakai",
+      "bagus",
+      "box",
+      "nya"
+    ],
+    "sentiment": "negative"
+  },
+  { "review": ["bareng", "sesuai"], "sentiment": "positive" },
+  {
+    "review": [
+      "cepat",
+      "dkrm",
+      "dterima",
+      "kondisi",
+      "bagus",
+      "packing",
+      "bagus",
+      "rapi",
+      "cepat",
+      "everything",
+      "is",
+      "good",
+      "puassssss",
+      "deh",
+      "puas"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["produk", "bagus", "sesuai", "pesan", "thanks"],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["pesan", "box", "hijab", "box", "model", "hijab"],
+    "sentiment": "negative"
+  },
+  {
+    "review": ["masak", "debu", "masuk", "masker", "hari"],
+    "sentiment": "negative"
+  },
+  { "review": ["tipis", "banding"], "sentiment": "positive" },
+  {
+    "review": [
+      "tipis",
+      "banget",
+      "masker",
+      "beda",
+      "onemed",
+      "warna",
+      "putih",
+      "tipis"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "quantitas",
+      "sesuai",
+      "pesan",
+      "kemas",
+      "box",
+      "langsung",
+      "masker",
+      "masker",
+      "bungkus",
+      "plastik",
+      "enak",
+      "pakai",
+      "masker",
+      "terimakasih",
+      "layan",
+      "cepat"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["jossss", "wes"], "sentiment": "positive" },
+  {
+    "review": [
+      "bagus",
+      "barang",
+      "segel",
+      "utuh",
+      "bubble",
+      "wrap",
+      "kasih",
+      "biar",
+      "aman",
+      "isi",
+      "nytrima",
+      "kasih"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "kali",
+      "beli",
+      "masker",
+      "puas",
+      "kirim",
+      "barang",
+      "recomended"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["tidak", "ada", "komentar"], "sentiment": "positive" },
+  { "review": ["seller", "bintang"], "sentiment": "positive" },
+  { "review": ["barang", "terima", "kasih"], "sentiment": "positive" },
+  {
+    "review": ["olshop", "percaya", "barang", "sesuai", "pesan"],
+    "sentiment": "positive"
+  },
+  { "review": ["bagussssss"], "sentiment": "positive" },
+  { "review": ["okeeee", "thankyou", "seller"], "sentiment": "positive" },
+  {
+    "review": [
+      "sesuai",
+      "pcs",
+      "pengirimn",
+      "cepat",
+      "terima",
+      "kasih",
+      "seller"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["siiiip"], "sentiment": "positive" },
+  { "review": ["proses", "puas", "barang", "kirim"], "sentiment": "positive" },
+  { "review": ["bonus"], "sentiment": "positive" },
+  { "review": ["cepat", "mantap"], "sentiment": "positive" },
+  { "review": ["cepat", "kirim"], "sentiment": "positive" },
+  { "review": ["tidak", "ada", "komentar"], "sentiment": "positive" },
+  {
+    "review": ["alhamdulillah", "sesuai", "pesan", "barang", "bagus"],
+    "sentiment": "positive"
+  },
+  { "review": ["barang", "sesuai", "peaanan"], "sentiment": "positive" },
+  {
+    "review": [
+      "cerita",
+      "beli",
+      "pcs",
+      "dikotakin",
+      "kes",
+      "bunafit",
+      "ply",
+      "sayang",
+      "kwalitas",
+      "premium"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "brng",
+      "nya",
+      "dngn",
+      "sesuai",
+      "pesan",
+      "bahan",
+      "nya",
+      "bagus",
+      "sek",
+      "napas",
+      "nya",
+      "makasihhhh"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["masker", "lumayan", "bagus", "besi", "tempel", "maksimal"],
+    "sentiment": "positive"
+  },
+  { "review": ["beli", "kedau", "barang", "ok"], "sentiment": "positive" },
+  { "review": ["cepat", "komplit", "top"], "sentiment": "positive" },
+  { "review": ["mantulll"], "sentiment": "positive" },
+  {
+    "review": ["pesan", "plastik", "masker", "plastik", "masker", "masker"],
+    "sentiment": "negative"
+  },
+  {
+    "review": ["kirim", "cepat", "barang", "sesuai", "foto", "kurir", "ramah"],
+    "sentiment": "positive"
+  },
+  { "review": ["okeeehhh"], "sentiment": "positive" },
+  {
+    "review": [
+      "dua",
+      "kali",
+      "beli",
+      "sayang",
+      "lambat",
+      "respon",
+      "order",
+      "pagi",
+      "kirim",
+      "sore",
+      "respon",
+      "respon",
+      "itu",
+      "kirim",
+      "besok",
+      "barang",
+      "bagus",
+      "sesuai",
+      "harga"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "barang",
+      "sesuai",
+      "minta",
+      "bagus",
+      "komunikasi",
+      "jual",
+      "beli",
+      "pro",
+      "aktif"
+    ],
+    "sentiment": "negative"
+  },
+  { "review": ["bagus", "masker"], "sentiment": "positive" },
+  { "review": ["barang", "sesuai", "pesan"], "sentiment": "positive" },
+  { "review": ["panas", "pakai"], "sentiment": "positive" },
+  {
+    "review": [
+      "proses",
+      "barang",
+      "jemput",
+      "kurir",
+      "banget",
+      "anjas",
+      "pokok"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "pengirimn",
+      "cepat",
+      "produk",
+      "bagus",
+      "konsumen",
+      "suka",
+      "makasih"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["bagus", "kirim", "cepat"], "sentiment": "positive" },
+  {
+    "review": ["barang", "sesuai", "pesan", "kirim", "cepat"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "layan",
+      "bagusseller",
+      "ramah",
+      "cepat",
+      "reply",
+      "chatdan",
+      "kirim",
+      "cepat",
+      "buka",
+      "dusnyarecommemded"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["packingnya", "rapi", "bagus", "barang", "sesuai"],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["kirim", "cepat", "packing", "kardus"],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["barang", "terima", "terima", "kasih"],
+    "sentiment": "positive"
+  },
+  { "review": ["mantap", "thanks"], "sentiment": "positive" },
+  { "review": ["cepat", "akurat"], "sentiment": "positive" },
+  { "review": ["original", "recommended", "seller"], "sentiment": "positive" },
+  { "review": ["pengirimannyamantul", "gan"], "sentiment": "positive" },
+  { "review": ["packing", "rapi", "cepat"], "sentiment": "positive" },
+  { "review": ["barang", "sesuai", "tawar"], "sentiment": "positive" },
+  {
+    "review": ["good", "product", "and", "fast", "response"],
+    "sentiment": "positive"
+  },
+  { "review": ["tq"], "sentiment": "positive" },
+  { "review": ["puasssss", "order"], "sentiment": "positive" },
+  { "review": ["bagusssss"], "sentiment": "positive" },
+  { "review": ["masker", "tipe", "kf"], "sentiment": "positive" },
+  {
+    "review": ["barang", "aman", "coba", "moga", "nyaman", "pakai"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "barang",
+      "sesuai",
+      "deskripsi",
+      "harga",
+      "jangkau",
+      "fast",
+      "respon"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["better", "ya"], "sentiment": "positive" },
+  {
+    "review": ["packing", "oke", "pakai", "dus", "tambah"],
+    "sentiment": "positive"
+  },
+  { "review": ["kualitas", "lumayan"], "sentiment": "positive" },
+  {
+    "review": [
+      "beli",
+      "menurit",
+      "masker",
+      "lembut",
+      "nyaman",
+      "masker",
+      "beli",
+      "karet",
+      "kuat",
+      "gampang",
+      "putus",
+      "ikin",
+      "sek",
+      "cocok",
+      "banget",
+      "banget",
+      "anak",
+      "sayang",
+      "harga",
+      "lumayan",
+      "moga",
+      "diskon",
+      "ya"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["beli", "rising"], "sentiment": "positive" },
+  {
+    "review": ["bagus", "kualitas", "pakcagin", "aman", "lembut", "anak"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "terima",
+      "kasih",
+      "gan",
+      "barang",
+      "terima",
+      "bahan",
+      "lembut",
+      "kirim",
+      "cepat"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["faste", "respond"], "sentiment": "positive" },
+  {
+    "review": ["bahan", "halus", "banget", "halus", "merek", "sih"],
+    "sentiment": "positive"
+  },
+  { "review": ["packing", "rapi"], "sentiment": "positive" },
+  { "review": ["bagus", "cepat"], "sentiment": "positive" },
+  { "review": ["packing", "rapi", "kualitas", "oke"], "sentiment": "positive" },
+  {
+    "review": [
+      "produk",
+      "original",
+      "sesuai",
+      "deskripsi",
+      "kirim",
+      "cepat",
+      "harga",
+      "produk",
+      "respon",
+      "jual"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["kemas", "rapi"], "sentiment": "positive" },
+  {
+    "review": [
+      "asa",
+      "tipis",
+      "indmret",
+      "indmret",
+      "ply",
+      "yasoalnya",
+      "kalo",
+      "kesana",
+      "beli",
+      "nexcare"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "beli",
+      "box",
+      "bonus",
+      "kf",
+      "kirimminta",
+      "produk",
+      "foto",
+      "proses",
+      "complain",
+      "bonus",
+      "foto",
+      "produk"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": ["produk", "bagus", "original", "kirim", "cepat"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "packing",
+      "amburadul",
+      "dus",
+      "masker",
+      "penyok",
+      "penyok",
+      "nya",
+      "dus",
+      "nyasampai",
+      "buka",
+      "isolasi"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "sih",
+      "packingnya",
+      "bagus",
+      "kali",
+      "pesan",
+      "dus",
+      "penyok",
+      "untung",
+      "dalem",
+      "plastik"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["thanks", "barang", "terima"], "sentiment": "positive" },
+  { "review": ["mantapssss"], "sentiment": "positive" },
+  { "review": ["top"], "sentiment": "positive" },
+  { "review": ["packing", "rapipesanan", "sesuai"], "sentiment": "positive" },
+  {
+    "review": ["barang", "bagus", "recommended", "banget"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "produk",
+      "kualitas",
+      "manfaat",
+      "mari",
+      "jaga",
+      "virus",
+      "covid",
+      "tks"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["size", "bahan", "ok"], "sentiment": "positive" },
+  { "review": ["bagus", "bahan", "sukaaaaa"], "sentiment": "positive" },
+  {
+    "review": [
+      "produk",
+      "manfaat",
+      "kualitas",
+      "anakanak",
+      "mari",
+      "jaga",
+      "pandemi",
+      "covid"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "banget",
+      "ukurannyaselalu",
+      "cocok",
+      "masker",
+      "sritexgood",
+      "quality"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "kirim",
+      "supeeeer",
+      "cepat",
+      "order",
+      "subuh",
+      "malam",
+      "kemas",
+      "rapi",
+      "banget",
+      "pakai",
+      "bubble",
+      "warp",
+      "kotak",
+      "masker",
+      "tebal",
+      "sesuai",
+      "gambar",
+      "puaas",
+      "banget",
+      "layan"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["bagus", "moga", "tali", "awet"], "sentiment": "positive" },
+  { "review": ["ok"], "sentiment": "positive" },
+  {
+    "review": ["respon", "cepat", "malam", "order", "siang", "mantap"],
+    "sentiment": "positive"
+  },
+  { "review": ["thx", "sesuai", "ekspetasi", "beli"], "sentiment": "positive" },
+  { "review": ["bagus", "layan", "cepat"], "sentiment": "positive" },
+  {
+    "review": ["barang", "nya", "sesuai", "pesan", "terima", "kasih", "toped"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "kirim",
+      "packing",
+      "amanseller",
+      "responsif",
+      "deh",
+      "beli",
+      "kaliterima",
+      "kasih"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "responsif",
+      "barang",
+      "cepat",
+      "packing",
+      "rapi",
+      "muas",
+      "terima",
+      "kasih",
+      "gan"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "produk",
+      "selamat",
+      "barang",
+      "bagus",
+      "packingan",
+      "lumayan",
+      "aman",
+      "mohon",
+      "tingkat",
+      "packingan",
+      "terima",
+      "kasih"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "merk",
+      "dus",
+      "masker",
+      "merk",
+      "kualitas",
+      "ya",
+      "masker",
+      "merk",
+      "pakai",
+      "buka",
+      "langsung",
+      "putus",
+      "tali"
+    ],
+    "sentiment": "negative"
+  },
+  { "review": ["keren"], "sentiment": "positive" },
+  {
+    "review": [
+      "order",
+      "pagi",
+      "sore",
+      "pakai",
+      "gratis",
+      "ongkir",
+      "sameday",
+      "barang",
+      "bagus",
+      "sesuai",
+      "harga"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["bagus", "tipis", "beli", "selisih", "ribu", "doang"],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["tali", "nya", "sakit", "kuping", "pakai", "lama"],
+    "sentiment": "negative"
+  },
+  {
+    "review": ["masker", "tali", "sakit", "dikupingmantap"],
+    "sentiment": "positive"
+  },
+  { "review": ["terima", "kasih"], "sentiment": "positive" },
+  {
+    "review": ["bagus", "dalem", "plastik", "moga", "aman"],
+    "sentiment": "positive"
+  },
+  { "review": ["service", "bagus", "delivery"], "sentiment": "positive" },
+  { "review": ["barang", "terima"], "sentiment": "positive" },
+  {
+    "review": ["murah", "kualitas", "dipakenya", "enak"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "paket",
+      "terima",
+      "oke",
+      "respon",
+      "seller",
+      "cepat",
+      "proses",
+      "pesan",
+      "cepat",
+      "kualitas",
+      "oke",
+      "sesuai",
+      "gambar",
+      "pesan",
+      "terima",
+      "kasih",
+      "moga",
+      "sukses"
+    ],
+    "sentiment": "positive"
+  },
+  { "review": ["kirim", "cepatmantappp"], "sentiment": "positive" },
+  { "review": ["kualitas", "bagus", "recommended"], "sentiment": "positive" },
+  {
+    "review": [
+      "kaget",
+      "kemas",
+      "sesuai",
+      "bayang",
+      "beli",
+      "hrga",
+      "kejar",
+      "diskon",
+      "kalo",
+      "hrga",
+      "normal",
+      "rapi",
+      "ya",
+      "ribu",
+      "banding",
+      "ribu",
+      "btw",
+      "terima",
+      "kasih",
+      "masker",
+      "kakak"
+    ],
+    "sentiment": "negative"
+  },
+  { "review": ["sesuai", "deskripsi"], "sentiment": "positive" },
+  { "review": ["terima"], "sentiment": "positive" },
+  {
+    "review": [
+      "kayak",
+      "masker",
+      "jenis",
+      "merkembossed",
+      "ati",
+      "teman",
+      "tipu",
+      "merk",
+      "nya"
+    ],
+    "sentiment": "negative"
+  },
+  { "review": ["thanks", "gan", "barang"], "sentiment": "positive" },
+  {
+    "review": ["barang", "bagus", "sampai", "cepat", "bungkus", "aman"],
+    "sentiment": "positive"
+  },
+  { "review": ["ok"], "sentiment": "positive" },
+  { "review": ["tidak", "ada", "komentar"], "sentiment": "negative" },
+  { "review": ["mantab"], "sentiment": "positive" },
+  {
+    "review": [
+      "nya",
+      "sesuai",
+      "ekspektasi",
+      "dipacking",
+      "masker",
+      "pesan",
+      "toko",
+      "packing",
+      "aman",
+      "rapi"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["kualitas", "barang", "kirim", "cepat", "nya"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "good",
+      "produk",
+      "kemas",
+      "higienis",
+      "pcs",
+      "masker",
+      "plastik",
+      "kirim",
+      "cepat",
+      "kualitas",
+      "ok"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "deskripsi",
+      "produk",
+      "sesuai",
+      "terima",
+      "iram",
+      "slow",
+      "respon",
+      "kotak",
+      "penyok",
+      "bubble",
+      "wrap",
+      "kotak",
+      "masker",
+      "tipis"
+    ],
+    "sentiment": "negative"
+  },
+  { "review": ["top", "keren"], "sentiment": "positive" },
+  {
+    "review": [
+      "parahini",
+      "masker",
+      "hargany",
+      "overpersis",
+      "harga",
+      "ribu",
+      "dus",
+      "official",
+      "store",
+      "tokopedia",
+      "selektif",
+      "barang",
+      "mutu",
+      "over",
+      "price",
+      "masker",
+      "sertifikasi",
+      "daily",
+      "maskdijual",
+      "harga",
+      "surgical",
+      "mask"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "barang",
+      "kirim",
+      "sesuai",
+      "deskripsi",
+      "tera",
+      "ijin",
+      "kemenkes",
+      "tanggal",
+      "exp",
+      "date",
+      "kotak",
+      "kirim",
+      "pesan",
+      "kotak",
+      "penyok",
+      "packing",
+      "masuk",
+      "dus",
+      "untung",
+      "lindung",
+      "bubble",
+      "wrap"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": ["kotak", "penyok", "sana", "mngkn", "expediai"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "barang",
+      "sesuai",
+      "kualitas",
+      "kardus",
+      "penyok",
+      "next",
+      "time",
+      "order",
+      "kalo",
+      "promo",
+      "tarik",
+      "banyak",
+      "promonya"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": ["harga", "promo", "murah", "kirim", "promo"],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "proses",
+      "kirim",
+      "sabar",
+      "ya",
+      "temanteman",
+      "beli",
+      "paket",
+      "cuman",
+      "bubble",
+      "wrap",
+      "penyok",
+      "enggak",
+      "apa",
+      "isi",
+      "packagingnya",
+      "pcs",
+      "sealed",
+      "aman",
+      "kualitas",
+      "masker",
+      "coba",
+      "pakai",
+      "merk",
+      "beli",
+      "minimarket",
+      "bagus",
+      "kualitas"
+    ],
+    "sentiment": "positive"
+  },
+  {
+    "review": [
+      "penjual",
+      "asal",
+      "kirim",
+      "barang",
+      "gk",
+      "lihat",
+      "pesanan",
+      "pembeli"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "barang",
+      "gak",
+      "sampe",
+      "lagian",
+      "pake",
+      "sicepat",
+      "opsi",
+      "kurir",
+      "pake",
+      "jne",
+      "juga",
+      "makanya",
+      "sampe",
+      "sekarang",
+      "barang",
+      "gak",
+      "di",
+      "refund",
+      "padahal",
+      "udah",
+      "asuransi"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "udah",
+      "belaga",
+      "nanya",
+      "ukuran",
+      "di",
+      "kolom",
+      "chat",
+      "karena",
+      "emng",
+      "ga",
+      "yakin",
+      "liat",
+      "deskripsi",
+      "produk",
+      "mengenai",
+      "panjang",
+      "barang",
+      "yang",
+      "berbeda",
+      "sama",
+      "foto",
+      "barang",
+      "dari",
+      "review",
+      "pembeli",
+      "eh",
+      "ternyata",
+      "begonya",
+      "pindah",
+      "ke",
+      "dia"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "dideskripsi",
+      "ukuran",
+      "27",
+      "cm",
+      "yg",
+      "datang",
+      "kok",
+      "10",
+      "cm",
+      "lama",
+      "pengiriman",
+      "nya"
+    ],
+    "sentiment": "negative"
+  },
+  { "review": ["tidak", "sesuai", "ukuran"], "sentiment": "negative" },
+  { "review": ["salah", "kirim", "warna"], "sentiment": "negative" },
+  {
+    "review": ["malproduk", "tidak", "bisa", "ditukar"],
+    "sentiment": "negative"
+  },
+  {
+    "review": ["barang", "yg", "dateng", "tak", "sesuai", "harapan"],
+    "sentiment": "negative"
+  },
+  {
+    "review": ["tipis", "banget", "bajunya", "setipis", "kulit", "bawang"],
+    "sentiment": "negative"
+  },
+  { "review": ["bahannya", "jelek"], "sentiment": "negative" },
+  {
+    "review": ["jangan", "di", "beli", "penjual", "penipu"],
+    "sentiment": "negative"
+  },
+  { "review": ["barangnya", "jelek"], "sentiment": "negative" },
+  { "review": ["jangan", "dibeli"], "sentiment": "negative" },
+  {
+    "review": ["padahal", "mintanya", "hitam", "tapi", "dikirim", "hijau"],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "sangat",
+      "mengecewakan",
+      "Kualitasnya",
+      "rendah",
+      "dan",
+      "tidak",
+      "tahan",
+      "lama"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "sangat",
+      "kecewa",
+      "dengan",
+      "produk",
+      "ini",
+      "Harganya",
+      "mahal",
+      "tetapi",
+      "kinerjanya",
+      "sangat",
+      "buruk"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "rusak",
+      "hanya",
+      "setelah",
+      "beberapa",
+      "kali",
+      "penggunaan",
+      "Tidak",
+      "tahan",
+      "lama",
+      "sama",
+      "sekali"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "tidak",
+      "merekomendasikan",
+      "produk",
+      "ini",
+      "Kualitasnya",
+      "buruk",
+      "dan",
+      "tidak",
+      "sesuai",
+      "dengan",
+      "harga",
+      "yang",
+      "dibayarkan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "berfungsi",
+      "dengan",
+      "baik",
+      "Saya",
+      "mengalami",
+      "masalah",
+      "teknis",
+      "sejak",
+      "awal",
+      "penggunaan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Pengemasan",
+      "produk",
+      "sangat",
+      "buruk",
+      "Ketika",
+      "produk",
+      "sampai",
+      "sudah",
+      "rusak",
+      "dan",
+      "tidak",
+      "bisa",
+      "digunakan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memiliki",
+      "instruksi",
+      "yang",
+      "jelas",
+      "Sulit",
+      "untuk",
+      "menggunakannya",
+      "dengan",
+      "benar"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "bahan",
+      "produk",
+      "sangat",
+      "buruk",
+      "Mudah",
+      "rusak",
+      "dan",
+      "terlihat",
+      "murahan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "hasil",
+      "seperti",
+      "yang",
+      "dijanjikan",
+      "Iklan",
+      "yang",
+      "menyesatkan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "tertipu",
+      "membeli",
+      "produk",
+      "ini",
+      "Kinerjanya",
+      "sangat",
+      "buruk",
+      "dan",
+      "tidak",
+      "sesuai",
+      "dengan",
+      "deskripsi"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "awet",
+      "Hanya",
+      "bertahan",
+      "beberapa",
+      "minggu",
+      "sebelum",
+      "rusak"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "sangat",
+      "kecewa",
+      "dengan",
+      "kualitas",
+      "produk",
+      "ini",
+      "Tidak",
+      "sebanding",
+      "dengan",
+      "harganya"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "nyaman",
+      "digunakan",
+      "Desainnya",
+      "tidak",
+      "ergonomis"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Setelah",
+      "beberapa",
+      "saat",
+      "penggunaan",
+      "produk",
+      "ini",
+      "mulai",
+      "berfungsi",
+      "secara",
+      "tidak",
+      "konsisten"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "uang",
+      "saya",
+      "terbuang",
+      "sia",
+      "sia",
+      "karena",
+      "membeli",
+      "produk",
+      "ini",
+      "Tidak",
+      "ada",
+      "manfaatnya"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "menghasilkan",
+      "bau",
+      "yang",
+      "tidak",
+      "sedap",
+      "Tidak",
+      "bisa",
+      "digunakan",
+      "dengan",
+      "nyaman"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "iritasi",
+      "kulit",
+      "setelah",
+      "menggunakan",
+      "produk",
+      "ini",
+      "Tidak",
+      "cocok",
+      "untuk",
+      "kulit",
+      "sensitif"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "cat",
+      "pada",
+      "produk",
+      "ini",
+      "sangat",
+      "buruk",
+      "Mudah",
+      "mengelupas",
+      "dan",
+      "tidak",
+      "tahan",
+      "lama"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "sulit",
+      "untuk",
+      "dibersihkan",
+      "Kotoran",
+      "menempel",
+      "dengan",
+      "susah",
+      "payah"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Tidak",
+      "ada",
+      "dukungan",
+      "pelanggan",
+      "yang",
+      "baik",
+      "untuk",
+      "produk",
+      "ini",
+      "Sulit",
+      "mendapatkan",
+      "bantuan",
+      "ketika",
+      "ada",
+      "masalah"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "sangat",
+      "rapuh",
+      "Mudah",
+      "pecah",
+      "bahkan",
+      "dengan",
+      "perlakuan",
+      "yang",
+      "hati",
+      "hati"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "terkecoh",
+      "dengan",
+      "klaim",
+      "keamanan",
+      "produk",
+      "ini",
+      "Ternyata",
+      "tidak",
+      "aman",
+      "digunakan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Setelah",
+      "beberapa",
+      "penggunaan",
+      "produk",
+      "ini",
+      "mulai",
+      "berisik",
+      "dan",
+      "tidak",
+      "nyaman",
+      "didengar"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "jahitan",
+      "pada",
+      "produk",
+      "ini",
+      "sangat",
+      "buruk",
+      "Mudah",
+      "terbuka",
+      "dan",
+      "rusak"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "sangat",
+      "kecewa",
+      "dengan",
+      "kinerja",
+      "produk",
+      "ini",
+      "Tidak",
+      "bekerja",
+      "seperti",
+      "yang",
+      "diharapkan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Baterai",
+      "produk",
+      "ini",
+      "sangat",
+      "buruk",
+      "Tidak",
+      "bertahan",
+      "lama",
+      "dan",
+      "sering",
+      "perlu",
+      "diisi",
+      "ulang"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "sulit",
+      "untuk",
+      "digunakan",
+      "Instruksinya",
+      "tidak",
+      "jelas",
+      "dan",
+      "membingungkan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "overpriced",
+      "Kualitasnya",
+      "tidak",
+      "sebanding",
+      "dengan",
+      "harga",
+      "yang",
+      "tinggi"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Pengiriman",
+      "produk",
+      "ini",
+      "sangat",
+      "lambat",
+      "Saya",
+      "harus",
+      "menunggu",
+      "berhari",
+      "hari",
+      "sebelum",
+      "sampai"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "sangat",
+      "kecewa",
+      "dengan",
+      "produk",
+      "ini",
+      "Harganya",
+      "mahal",
+      "tetapi",
+      "kinerjanya",
+      "sangat",
+      "buruk"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "rusak",
+      "hanya",
+      "setelah",
+      "beberapa",
+      "kali",
+      "penggunaan",
+      "Tidak",
+      "tahan",
+      "lama",
+      "sama",
+      "sekali"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "tidak",
+      "merekomendasikan",
+      "produk",
+      "ini",
+      "Kualitasnya",
+      "buruk",
+      "dan",
+      "tidak",
+      "sesuai",
+      "dengan",
+      "harga",
+      "yang",
+      "dibayarkan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "berfungsi",
+      "dengan",
+      "baik",
+      "Saya",
+      "mengalami",
+      "masalah",
+      "teknis",
+      "sejak",
+      "awal",
+      "penggunaan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Pengemasan",
+      "produk",
+      "sangat",
+      "buruk",
+      "Ketika",
+      "produk",
+      "sampai",
+      "sudah",
+      "rusak",
+      "dan",
+      "tidak",
+      "bisa",
+      "digunakan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memiliki",
+      "instruksi",
+      "yang",
+      "jelas",
+      "Sulit",
+      "untuk",
+      "menggunakannya",
+      "dengan",
+      "benar"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "bahan",
+      "produk",
+      "sangat",
+      "buruk",
+      "Mudah",
+      "rusak",
+      "dan",
+      "terlihat",
+      "murahan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "hasil",
+      "seperti",
+      "yang",
+      "dijanjikan",
+      "Iklan",
+      "yang",
+      "menyesatkan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "tertipu",
+      "membeli",
+      "produk",
+      "ini",
+      "Kinerjanya",
+      "sangat",
+      "buruk",
+      "dan",
+      "tidak",
+      "sesuai",
+      "dengan",
+      "deskripsi"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "awet",
+      "Hanya",
+      "bertahan",
+      "beberapa",
+      "minggu",
+      "sebelum",
+      "rusak"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "sangat",
+      "kecewa",
+      "dengan",
+      "kualitas",
+      "produk",
+      "ini",
+      "Tidak",
+      "sebanding",
+      "dengan",
+      "harganya"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "nyaman",
+      "digunakan",
+      "Desainnya",
+      "tidak",
+      "ergonomis"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Setelah",
+      "beberapa",
+      "saat",
+      "penggunaan",
+      "produk",
+      "ini",
+      "mulai",
+      "berfungsi",
+      "secara",
+      "tidak",
+      "konsisten"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "uang",
+      "saya",
+      "terbuang",
+      "sia",
+      "sia",
+      "karena",
+      "membeli",
+      "produk",
+      "ini",
+      "Tidak",
+      "ada",
+      "manfaatnya"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "menghasilkan",
+      "bau",
+      "yang",
+      "tidak",
+      "sedap",
+      "Tidak",
+      "bisa",
+      "digunakan",
+      "dengan",
+      "nyaman"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "iritasi",
+      "kulit",
+      "setelah",
+      "menggunakan",
+      "produk",
+      "ini",
+      "Tidak",
+      "cocok",
+      "untuk",
+      "kulit",
+      "sensitif"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "cat",
+      "pada",
+      "produk",
+      "ini",
+      "sangat",
+      "buruk",
+      "Mudah",
+      "mengelupas",
+      "dan",
+      "tidak",
+      "tahan",
+      "lama"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "sulit",
+      "untuk",
+      "dibersihkan",
+      "Kotoran",
+      "menempel",
+      "dengan",
+      "susah",
+      "payah"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Tidak",
+      "ada",
+      "dukungan",
+      "pelanggan",
+      "yang",
+      "baik",
+      "untuk",
+      "produk",
+      "ini",
+      "Sulit",
+      "mendapatkan",
+      "bantuan",
+      "ketika",
+      "ada",
+      "masalah"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "sangat",
+      "rapuh",
+      "Mudah",
+      "pecah",
+      "bahkan",
+      "dengan",
+      "perlakuan",
+      "yang",
+      "hati",
+      "hati"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "terkecoh",
+      "dengan",
+      "klaim",
+      "keamanan",
+      "produk",
+      "ini",
+      "Ternyata",
+      "tidak",
+      "aman",
+      "digunakan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Setelah",
+      "beberapa",
+      "penggunaan",
+      "produk",
+      "ini",
+      "mulai",
+      "berisik",
+      "dan",
+      "tidak",
+      "nyaman",
+      "didengar"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "jahitan",
+      "pada",
+      "produk",
+      "ini",
+      "sangat",
+      "buruk",
+      "Mudah",
+      "terbuka",
+      "dan",
+      "rusak"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "tahan",
+      "terhadap",
+      "kondisi",
+      "lingkungan",
+      "yang",
+      "normal",
+      "Cepat",
+      "rusak",
+      "karena",
+      "faktor",
+      "sehari",
+      "hari"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "sangat",
+      "kecewa",
+      "dengan",
+      "kinerja",
+      "produk",
+      "ini",
+      "Tidak",
+      "bekerja",
+      "seperti",
+      "yang",
+      "diharapkan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Baterai",
+      "produk",
+      "ini",
+      "sangat",
+      "buruk",
+      "Tidak",
+      "bertahan",
+      "lama",
+      "dan",
+      "sering",
+      "perlu",
+      "diisi",
+      "ulang"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "sulit",
+      "untuk",
+      "digunakan",
+      "Instruksinya",
+      "tidak",
+      "jelas",
+      "dan",
+      "membingungkan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "overpriced",
+      "Kualitasnya",
+      "tidak",
+      "sebanding",
+      "dengan",
+      "harga",
+      "yang",
+      "tinggi"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Pengiriman",
+      "produk",
+      "ini",
+      "sangat",
+      "lambat",
+      "Saya",
+      "harus",
+      "menunggu",
+      "berhari",
+      "hari",
+      "sebelum",
+      "sampai"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Sistem",
+      "layanan",
+      "pelanggan",
+      "yang",
+      "buruk",
+      "Sulit",
+      "untuk",
+      "menghubungi",
+      "dan",
+      "mendapatkan",
+      "bantuan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "tahan",
+      "terhadap",
+      "penggunaan",
+      "sehari",
+      "hari",
+      "Mudah",
+      "rusak",
+      "dan",
+      "memerlukan",
+      "perbaikan",
+      "berulang"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "reaksi",
+      "alergi",
+      "setelah",
+      "menggunakan",
+      "produk",
+      "ini",
+      "Ternyata",
+      "mengandung",
+      "bahan",
+      "yang",
+      "tidak",
+      "cocok",
+      "bagi",
+      "saya"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Desain",
+      "produk",
+      "ini",
+      "tidak",
+      "praktis",
+      "Sulit",
+      "digunakan",
+      "atau",
+      "tidak",
+      "efisien"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "tertipu",
+      "dengan",
+      "klaim",
+      "ramah",
+      "lingkungan",
+      "produk",
+      "ini",
+      "Ternyata",
+      "tidak",
+      "memiliki",
+      "dampak",
+      "positif",
+      "pada",
+      "lingkungan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "memiliki",
+      "aroma",
+      "yang",
+      "tidak",
+      "sedap",
+      "Tidak",
+      "menyenangkan",
+      "digunakan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kemasan",
+      "produk",
+      "tidak",
+      "efektif",
+      "dalam",
+      "melindungi",
+      "barang",
+      "Barang",
+      "rusak",
+      "saat",
+      "tiba"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "sesuai",
+      "dengan",
+      "gambar",
+      "atau",
+      "deskripsi",
+      "yang",
+      "diberikan",
+      "Penampilannya",
+      "mengecewakan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "kompatibilitas",
+      "dengan",
+      "produk",
+      "ini",
+      "Tidak",
+      "dapat",
+      "berfungsi",
+      "dengan",
+      "perangkat",
+      "lain",
+      "yang",
+      "seharusnya",
+      "kompatibel"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Baterai",
+      "produk",
+      "ini",
+      "memiliki",
+      "umur",
+      "yang",
+      "sangat",
+      "pendek",
+      "Sering",
+      "harus",
+      "diganti",
+      "atau",
+      "diisi",
+      "ulang"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Instruksi",
+      "penggunaan",
+      "produk",
+      "tidak",
+      "memadai",
+      "atau",
+      "ambigu",
+      "Sulit",
+      "untuk",
+      "mengerti",
+      "cara",
+      "menggunakannya",
+      "dengan",
+      "benar"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "nilai",
+      "tambah",
+      "atau",
+      "manfaat",
+      "yang",
+      "signifikan",
+      "Tidak",
+      "sebanding",
+      "dengan",
+      "investasi",
+      "yang",
+      "dibutuhkan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "kesulitan",
+      "mendapatkan",
+      "suku",
+      "cadang",
+      "atau",
+      "dukungan",
+      "teknis",
+      "untuk",
+      "produk",
+      "ini",
+      "Tidak",
+      "ada",
+      "ketersediaan",
+      "atau",
+      "tanggapan",
+      "yang",
+      "memadai"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "suara",
+      "atau",
+      "gambar",
+      "produk",
+      "ini",
+      "buruk",
+      "Tidak",
+      "memberikan",
+      "pengalaman",
+      "yang",
+      "memuaskan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "memiliki",
+      "kelemahan",
+      "desain",
+      "yang",
+      "signifikan",
+      "Sulit",
+      "untuk",
+      "digunakan",
+      "atau",
+      "tidak",
+      "ergonomis"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "keamanan",
+      "dengan",
+      "produk",
+      "ini",
+      "Mengkhawatirkan",
+      "potensi",
+      "risiko",
+      "atau",
+      "kerusakan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "tahan",
+      "lama",
+      "dalam",
+      "kondisi",
+      "penggunaan",
+      "normal",
+      "Komponen",
+      "cepat",
+      "aus",
+      "atau",
+      "rusak"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "garansi",
+      "produk",
+      "ini",
+      "Sulit",
+      "untuk",
+      "mendapatkan",
+      "pengembalian",
+      "atau",
+      "penggantian",
+      "yang",
+      "adil"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "jaringan",
+      "atau",
+      "koneksi",
+      "produk",
+      "ini",
+      "buruk",
+      "Tidak",
+      "stabil",
+      "atau",
+      "sering",
+      "terputus"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "menghasilkan",
+      "hasil",
+      "yang",
+      "diinginkan",
+      "atau",
+      "tidak",
+      "memberikan",
+      "efek",
+      "yang",
+      "dijanjikan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "kurang",
+      "inovatif",
+      "atau",
+      "tidak",
+      "memiliki",
+      "fitur",
+      "fitur",
+      "yang",
+      "membedakan",
+      "dengan",
+      "produk",
+      "sejenis",
+      "lainnya"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Komponen",
+      "produk",
+      "ini",
+      "tidak",
+      "terpasang",
+      "dengan",
+      "baik",
+      "atau",
+      "rapuh",
+      "Mudah",
+      "rusak",
+      "atau",
+      "lepas"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "tahan",
+      "terhadap",
+      "penggunaan",
+      "di",
+      "lingkungan",
+      "yang",
+      "keras",
+      "Mudah",
+      "rusak",
+      "atau",
+      "tidak",
+      "tahan",
+      "cuaca"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "ukuran",
+      "atau",
+      "dimensi",
+      "produk",
+      "ini",
+      "Tidak",
+      "sesuai",
+      "dengan",
+      "ekspektasi",
+      "atau",
+      "kebutuhan",
+      "saya"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "tampilan",
+      "atau",
+      "resolusi",
+      "produk",
+      "ini",
+      "rendah",
+      "Tidak",
+      "memberikan",
+      "pengalaman",
+      "visual",
+      "yang",
+      "baik"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "sulit",
+      "untuk",
+      "diperbaiki",
+      "atau",
+      "dipelihara",
+      "Memerlukan",
+      "biaya",
+      "tambahan",
+      "atau",
+      "perawatan",
+      "yang",
+      "sulit"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "memiliki",
+      "kelemahan",
+      "desain",
+      "yang",
+      "dapat",
+      "menyebabkan",
+      "cedera",
+      "atau",
+      "bahaya",
+      "bagi",
+      "pengguna"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "kebisingan",
+      "atau",
+      "getaran",
+      "yang",
+      "tidak",
+      "diinginkan",
+      "dari",
+      "produk",
+      "ini"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "cocok",
+      "dengan",
+      "standar",
+      "keselamatan",
+      "atau",
+      "regulasi",
+      "yang",
+      "berlaku"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "ketahanan",
+      "produk",
+      "ini",
+      "terhadap",
+      "debu",
+      "air",
+      "atau",
+      "kondisi",
+      "lingkungan",
+      "lainnya"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "konstruksi",
+      "produk",
+      "ini",
+      "buruk",
+      "Tidak",
+      "kuat",
+      "atau",
+      "stabil",
+      "saat",
+      "digunakan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "memiliki",
+      "umur",
+      "pakai",
+      "yang",
+      "sangat",
+      "singkat",
+      "Hanya",
+      "bertahan",
+      "beberapa",
+      "penggunaan",
+      "sebelum",
+      "rusak"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memiliki",
+      "fitur",
+      "yang",
+      "diiklankan",
+      "atau",
+      "fitur",
+      "fitur",
+      "yang",
+      "dijanjikan",
+      "tidak",
+      "berfungsi",
+      "dengan",
+      "baik"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "ergonomi",
+      "produk",
+      "ini",
+      "Tidak",
+      "nyaman",
+      "atau",
+      "tidak",
+      "sesuai",
+      "dengan",
+      "bentuk",
+      "atau",
+      "ukuran",
+      "tangan",
+      "saya"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "cat",
+      "atau",
+      "lapisan",
+      "produk",
+      "ini",
+      "buruk",
+      "Mudah",
+      "terkelupas",
+      "atau",
+      "pudar"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "nilai",
+      "tambah",
+      "dalam",
+      "hal",
+      "kualitas",
+      "atau",
+      "performa",
+      "dibandingkan",
+      "dengan",
+      "produk",
+      "serupa",
+      "lainnya"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "keausan",
+      "atau",
+      "penurunan",
+      "kualitas",
+      "produk",
+      "ini",
+      "seiring",
+      "waktu"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memiliki",
+      "manual",
+      "pengguna",
+      "yang",
+      "lengkap",
+      "atau",
+      "tidak",
+      "mudah",
+      "dipahami"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "terlalu",
+      "rumit",
+      "atau",
+      "memerlukan",
+      "konfigurasi",
+      "yang",
+      "sulit"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "audio",
+      "atau",
+      "mikrofon",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Tidak",
+      "memberikan",
+      "suara",
+      "yang",
+      "jernih",
+      "atau",
+      "berkualitas"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "memiliki",
+      "bau",
+      "yang",
+      "tidak",
+      "sedap",
+      "atau",
+      "mengeluarkan",
+      "bau",
+      "yang",
+      "tidak",
+      "normal"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "daya",
+      "tahan",
+      "produk",
+      "ini",
+      "terhadap",
+      "suhu",
+      "ekstrem",
+      "atau",
+      "perubahan",
+      "suhu"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "dukungan",
+      "atau",
+      "pembaruan",
+      "perangkat",
+      "lunak",
+      "yang",
+      "memadai"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "tidak",
+      "berkelanjutan",
+      "atau",
+      "ramah",
+      "lingkungan",
+      "dalam",
+      "produksi",
+      "dan",
+      "penggunaannya"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "komponen",
+      "internal",
+      "produk",
+      "ini",
+      "buruk",
+      "Tidak",
+      "tahan",
+      "lama",
+      "atau",
+      "sering",
+      "mengalami",
+      "kegagalan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "kenyamanan",
+      "yang",
+      "dijanjikan",
+      "atau",
+      "tidak",
+      "ergonomis",
+      "dalam",
+      "penggunaan",
+      "sehari",
+      "hari"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "kesalahan",
+      "pengukuran",
+      "atau",
+      "ketidakakuratan",
+      "pada",
+      "produk",
+      "ini"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "sulit",
+      "untuk",
+      "dibongkar",
+      "atau",
+      "perbaiki",
+      "sendiri",
+      "Memerlukan",
+      "bantuan",
+      "profesional",
+      "atau",
+      "biaya",
+      "tambahan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Keandalan",
+      "produk",
+      "ini",
+      "rendah",
+      "Sering",
+      "mengalami",
+      "gangguan",
+      "atau",
+      "kerusakan",
+      "yang",
+      "tidak",
+      "terduga"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "tidak",
+      "memiliki",
+      "kualitas",
+      "yang",
+      "meyakinkan",
+      "Terlihat",
+      "murahan",
+      "atau",
+      "tidak",
+      "terawat"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "layar",
+      "atau",
+      "tampilan",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Tidak",
+      "memberikan",
+      "gambar",
+      "yang",
+      "tajam",
+      "atau",
+      "jernih"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "hasil",
+      "yang",
+      "diharapkan",
+      "Tidak",
+      "efektif",
+      "dalam",
+      "menyelesaikan",
+      "masalah"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "mudah",
+      "tergores",
+      "atau",
+      "terkena",
+      "noda",
+      "Tidak",
+      "tahan",
+      "lama",
+      "dalam",
+      "tampilan",
+      "yang",
+      "baik"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "layanan",
+      "purna",
+      "jual",
+      "produk",
+      "ini",
+      "Tidak",
+      "responsif",
+      "atau",
+      "sulit",
+      "dihubungi"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "plastik",
+      "atau",
+      "bahan",
+      "produk",
+      "ini",
+      "sangat",
+      "buruk",
+      "Terasa",
+      "murahan",
+      "dan",
+      "rentan",
+      "patah"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "pengalaman",
+      "pengguna",
+      "yang",
+      "intuitif",
+      "Antarmuka",
+      "atau",
+      "navigasinya",
+      "rumit",
+      "atau",
+      "membingungkan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "tidak",
+      "menghadirkan",
+      "nilai",
+      "tambah",
+      "yang",
+      "signifikan",
+      "Tidak",
+      "berbeda",
+      "dengan",
+      "produk",
+      "sejenis",
+      "yang",
+      "lebih",
+      "murah"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "gambar",
+      "atau",
+      "resolusi",
+      "pada",
+      "produk",
+      "ini",
+      "rendah",
+      "Tidak",
+      "memuaskan",
+      "untuk",
+      "hiburan",
+      "atau",
+      "penggunaan",
+      "visual"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "sulit",
+      "untuk",
+      "dibawa",
+      "atau",
+      "portabel",
+      "Berat",
+      "atau",
+      "tidak",
+      "praktis",
+      "untuk",
+      "dibawa",
+      "bepergian"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "sensitivitas",
+      "sentuhan",
+      "pada",
+      "produk",
+      "ini",
+      "Responsnya",
+      "lambat",
+      "atau",
+      "tidak",
+      "akurat"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "audio",
+      "produk",
+      "ini",
+      "buruk",
+      "Suaranya",
+      "pecah",
+      "atau",
+      "terdengar",
+      "tidak",
+      "jelas"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "tahan",
+      "terhadap",
+      "benturan",
+      "atau",
+      "goncangan",
+      "Cepat",
+      "rusak",
+      "saat",
+      "jatuh",
+      "atau",
+      "terbentur"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "tidak",
+      "aman",
+      "digunakan",
+      "Ada",
+      "risiko",
+      "kebakaran",
+      "kejutan",
+      "listrik",
+      "atau",
+      "bahaya",
+      "lainnya"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "sambungan",
+      "atau",
+      "penguncian",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Mudah",
+      "terlepas",
+      "atau",
+      "longgar"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "menghasilkan",
+      "panas",
+      "berlebihan",
+      "saat",
+      "digunakan",
+      "Tidak",
+      "nyaman",
+      "dan",
+      "berpotensi",
+      "merusak",
+      "komponen",
+      "internal"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "keausan",
+      "pada",
+      "produk",
+      "ini",
+      "Tidak",
+      "bertahan",
+      "lama",
+      "dalam",
+      "penggunaan",
+      "sehari",
+      "hari"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "perlindungan",
+      "yang",
+      "memadai",
+      "Tidak",
+      "tahan",
+      "terhadap",
+      "goresan",
+      "debu",
+      "atau",
+      "cairan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "jaringan",
+      "atau",
+      "konektivitas",
+      "produk",
+      "ini",
+      "buruk",
+      "Sering",
+      "terputus",
+      "atau",
+      "tidak",
+      "stabil",
+      "dalam",
+      "koneksi"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "ramah",
+      "lingkungan",
+      "Menggunakan",
+      "bahan",
+      "bahan",
+      "berbahaya",
+      "atau",
+      "tidak",
+      "dapat",
+      "didaur",
+      "ulang"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "terlalu",
+      "rumit",
+      "atau",
+      "berlebihan",
+      "dalam",
+      "fitur",
+      "fiturnya",
+      "Sulit",
+      "untuk",
+      "memanfaatkan",
+      "sepenuhnya"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "sinyal",
+      "atau",
+      "penerimaan",
+      "produk",
+      "ini",
+      "buruk",
+      "Sering",
+      "terjadi",
+      "gangguan",
+      "atau",
+      "sinyal",
+      "lemah"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "ergonomis",
+      "dalam",
+      "penggunaan",
+      "jangka",
+      "panjang",
+      "Menyebabkan",
+      "ketidaknyamanan",
+      "atau",
+      "cedera",
+      "pada",
+      "tubuh"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "kapasitas",
+      "penyimpanan",
+      "produk",
+      "ini",
+      "Tidak",
+      "cukup",
+      "untuk",
+      "memenuhi",
+      "kebutuhan",
+      "saya"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "cat",
+      "atau",
+      "lapisan",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Mudah",
+      "mengelupas",
+      "atau",
+      "berubah",
+      "warna"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "pengaturan",
+      "atau",
+      "opsi",
+      "yang",
+      "memadai",
+      "Terbatas",
+      "dalam",
+      "kemampuan",
+      "penggunaan",
+      "yang",
+      "disesuaikan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "cahaya",
+      "atau",
+      "pencahayaan",
+      "produk",
+      "ini",
+      "buruk",
+      "Tidak",
+      "memberikan",
+      "pencahayaan",
+      "yang",
+      "cukup",
+      "atau",
+      "merata"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "memiliki",
+      "daya",
+      "tahan",
+      "yang",
+      "rendah",
+      "Cepat",
+      "rusak",
+      "atau",
+      "mengalami",
+      "kerusakan",
+      "dalam",
+      "penggunaan",
+      "normal"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "fitur",
+      "pengaman",
+      "produk",
+      "ini",
+      "Tidak",
+      "memberikan",
+      "perlindungan",
+      "yang",
+      "memadai"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "material",
+      "atau",
+      "kain",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Mudah",
+      "robek",
+      "atau",
+      "aus",
+      "dalam",
+      "waktu",
+      "singkat"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "nilai",
+      "estetika",
+      "yang",
+      "menarik",
+      "Tampilan",
+      "yang",
+      "membosankan",
+      "atau",
+      "kurang",
+      "menarik"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "kurang",
+      "nyaman",
+      "digunakan",
+      "Tidak",
+      "ergonomis",
+      "atau",
+      "tidak",
+      "pas",
+      "dengan",
+      "postur",
+      "tubuh"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "bahan",
+      "makanan",
+      "atau",
+      "rasa",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Tidak",
+      "enak",
+      "atau",
+      "tidak",
+      "sesuai",
+      "dengan",
+      "harapan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "memiliki",
+      "waktu",
+      "pengisian",
+      "yang",
+      "lama",
+      "Memakan",
+      "waktu",
+      "terlalu",
+      "lama",
+      "untuk",
+      "mengisi",
+      "daya",
+      "atau",
+      "baterai"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "kehandalan",
+      "produk",
+      "ini",
+      "Sering",
+      "mengalami",
+      "kerusakan",
+      "atau",
+      "gangguan",
+      "yang",
+      "tidak",
+      "dapat",
+      "diperbaiki"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "jaminan",
+      "atau",
+      "garansi",
+      "produk",
+      "ini",
+      "buruk",
+      "Sulit",
+      "untuk",
+      "mengklaim",
+      "atau",
+      "mendapatkan",
+      "penggantian"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "kompatibel",
+      "dengan",
+      "sistem",
+      "operasi",
+      "atau",
+      "perangkat",
+      "lain",
+      "yang",
+      "umum",
+      "digunakan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "kurang",
+      "stabil",
+      "atau",
+      "sering",
+      "mengalami",
+      "kegagalan",
+      "sistem"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "tali",
+      "atau",
+      "kawat",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Mudah",
+      "putus",
+      "atau",
+      "melenting",
+      "saat",
+      "digunakan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "kemudahan",
+      "penggunaan",
+      "Instruksi",
+      "yang",
+      "tidak",
+      "jelas",
+      "atau",
+      "fitur",
+      "yang",
+      "rumit"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "kebocoran",
+      "atau",
+      "tumpahan",
+      "pada",
+      "produk",
+      "ini",
+      "Tidak",
+      "tahan",
+      "terhadap",
+      "cairan",
+      "atau",
+      "tekanan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "baterai",
+      "atau",
+      "daya",
+      "tahan",
+      "produk",
+      "ini",
+      "buruk",
+      "Cepat",
+      "habis",
+      "atau",
+      "membutuhkan",
+      "pengisian",
+      "ulang",
+      "yang",
+      "sering"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memiliki",
+      "keandalan",
+      "yang",
+      "baik",
+      "Rentan",
+      "mengalami",
+      "gangguan",
+      "atau",
+      "kegagalan",
+      "fungsi"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "tidak",
+      "ergonomis",
+      "dalam",
+      "penggunaan",
+      "jangka",
+      "panjang",
+      "Menyebabkan",
+      "ketegangan",
+      "atau",
+      "ketidaknyamanan",
+      "pada",
+      "tubuh"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "jarak",
+      "jangkauan",
+      "atau",
+      "sinyal",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Terbatas",
+      "atau",
+      "sering",
+      "terputus",
+      "dalam",
+      "koneksi"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memiliki",
+      "tingkat",
+      "keamanan",
+      "yang",
+      "memadai",
+      "Rentan",
+      "terhadap",
+      "peretasan",
+      "atau",
+      "ancaman",
+      "keamanan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "keakuratan",
+      "pengukuran",
+      "atau",
+      "sensor",
+      "pada",
+      "produk",
+      "ini",
+      "Tidak",
+      "akurat",
+      "atau",
+      "memberikan",
+      "hasil",
+      "yang",
+      "salah"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "kemasan",
+      "produk",
+      "ini",
+      "buruk",
+      "Tidak",
+      "kokoh",
+      "atau",
+      "tidak",
+      "melindungi",
+      "barang",
+      "dengan",
+      "baik"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "kecepatan",
+      "atau",
+      "performa",
+      "yang",
+      "diharapkan",
+      "Lambat",
+      "dalam",
+      "pemrosesan",
+      "atau",
+      "respons"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "kurang",
+      "ramah",
+      "pengguna",
+      "Tidak",
+      "intuitif",
+      "atau",
+      "sulit",
+      "untuk",
+      "digunakan",
+      "tanpa",
+      "panduan",
+      "tambahan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "sinyal",
+      "suara",
+      "atau",
+      "kualitas",
+      "panggilan",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Tidak",
+      "jelas",
+      "atau",
+      "terdengar",
+      "terdistorsi"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "memiliki",
+      "ukuran",
+      "atau",
+      "dimensi",
+      "yang",
+      "tidak",
+      "sesuai",
+      "dengan",
+      "kebutuhan",
+      "atau",
+      "harapan",
+      "saya"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "ketahanan",
+      "produk",
+      "ini",
+      "terhadap",
+      "cuaca",
+      "ekstrem",
+      "atau",
+      "lingkungan",
+      "yang",
+      "tidak",
+      "kondusif"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "konstruksi",
+      "atau",
+      "kekuatan",
+      "produk",
+      "ini",
+      "buruk",
+      "Mudah",
+      "rusak",
+      "atau",
+      "tidak",
+      "tahan",
+      "lama",
+      "dalam",
+      "penggunaan",
+      "normal"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "tingkat",
+      "kebersihan",
+      "atau",
+      "sanitasi",
+      "yang",
+      "memadai",
+      "Sulit",
+      "untuk",
+      "membersihkan",
+      "atau",
+      "memiliki",
+      "kualitas",
+      "higienis",
+      "yang",
+      "rendah"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "nilai",
+      "harga",
+      "yang",
+      "sebanding",
+      "Terlalu",
+      "mahal",
+      "dibandingkan",
+      "dengan",
+      "kualitas",
+      "dan",
+      "fitur",
+      "yang",
+      "ditawarkan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "desain",
+      "atau",
+      "estetika",
+      "produk",
+      "ini",
+      "buruk",
+      "Terlihat",
+      "tidak",
+      "menarik",
+      "atau",
+      "tidak",
+      "rapi"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "fleksibilitas",
+      "penggunaan",
+      "Terbatas",
+      "dalam",
+      "fungsionalitas",
+      "atau",
+      "kompatibilitas",
+      "dengan",
+      "aksesori",
+      "tambahan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "ketahanan",
+      "produk",
+      "ini",
+      "terhadap",
+      "korosi",
+      "atau",
+      "karat",
+      "Cepat",
+      "terdegradasi",
+      "atau",
+      "berkarat",
+      "dalam",
+      "lingkungan",
+      "yang",
+      "lembap"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "bahan",
+      "atau",
+      "komponen",
+      "internal",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Mudah",
+      "rusak",
+      "atau",
+      "mengalami",
+      "kegagalan",
+      "dalam",
+      "penggunaan",
+      "normal"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "dukungan",
+      "atau",
+      "pembaruan",
+      "perangkat",
+      "lunak",
+      "yang",
+      "memadai",
+      "Tidak",
+      "ada",
+      "peningkatan",
+      "atau",
+      "pembaruan",
+      "fitur",
+      "yang",
+      "signifikan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "tidak",
+      "memiliki",
+      "daya",
+      "tahan",
+      "yang",
+      "baik",
+      "terhadap",
+      "waktu",
+      "Tidak",
+      "bertahan",
+      "lama",
+      "dalam",
+      "penggunaan",
+      "jangka",
+      "panjang"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "konektivitas",
+      "atau",
+      "kompatibilitas",
+      "produk",
+      "ini",
+      "buruk",
+      "Tidak",
+      "dapat",
+      "terhubung",
+      "atau",
+      "berinteraksi",
+      "dengan",
+      "perangkat",
+      "lain",
+      "dengan",
+      "baik"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "kestabilan",
+      "atau",
+      "kinerja",
+      "yang",
+      "konsisten",
+      "Seringkali",
+      "mengalami",
+      "penurunan",
+      "kinerja",
+      "atau",
+      "gangguan",
+      "yang",
+      "tidak",
+      "terduga"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "kenyamanan",
+      "produk",
+      "ini",
+      "Tidak",
+      "nyaman",
+      "digunakan",
+      "dalam",
+      "jangka",
+      "waktu",
+      "yang",
+      "lama",
+      "atau",
+      "menyebabkan",
+      "ketidaknyamanan",
+      "fisik"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "kontrol",
+      "atau",
+      "tombol",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Tidak",
+      "responsif",
+      "atau",
+      "sulit",
+      "untuk",
+      "diklik",
+      "dengan",
+      "baik"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "perlindungan",
+      "privasi",
+      "yang",
+      "memadai",
+      "Rentan",
+      "terhadap",
+      "penyusupan",
+      "atau",
+      "kebocoran",
+      "data",
+      "pribadi"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "tidak",
+      "ramah",
+      "pengguna",
+      "Sulit",
+      "untuk",
+      "digunakan",
+      "atau",
+      "tidak",
+      "sesuai",
+      "dengan",
+      "kebutuhan",
+      "pengguna"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "performa",
+      "atau",
+      "kecepatan",
+      "akses",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Lambat",
+      "dalam",
+      "memuat",
+      "atau",
+      "merespons",
+      "perintah"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "fitur",
+      "keamanan",
+      "yang",
+      "memadai",
+      "Tidak",
+      "ada",
+      "perlindungan",
+      "terhadap",
+      "serangan",
+      "atau",
+      "ancaman",
+      "keamanan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "kualitas",
+      "transmisi",
+      "atau",
+      "kualitas",
+      "panggilan",
+      "pada",
+      "produk",
+      "ini",
+      "Terdengar",
+      "terputus",
+      "putus",
+      "atau",
+      "suara",
+      "yang",
+      "tidak",
+      "jelas"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "layar",
+      "atau",
+      "tampilan",
+      "produk",
+      "ini",
+      "buruk",
+      "Resolusi",
+      "rendah",
+      "atau",
+      "warna",
+      "yang",
+      "tidak",
+      "akurat"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "kestabilan",
+      "atau",
+      "daya",
+      "tahan",
+      "baterai",
+      "yang",
+      "baik",
+      "Cepat",
+      "habis",
+      "atau",
+      "sering",
+      "perlu",
+      "diisi",
+      "ulang"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "pembaruan",
+      "perangkat",
+      "lunak",
+      "yang",
+      "memadai",
+      "Tidak",
+      "ada",
+      "perbaikan",
+      "bug",
+      "atau",
+      "peningkatan",
+      "fitur"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "ketahanan",
+      "produk",
+      "ini",
+      "terhadap",
+      "air",
+      "atau",
+      "kelembapan",
+      "Rentan",
+      "terhadap",
+      "kerusakan",
+      "akibat",
+      "cairan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "kamera",
+      "atau",
+      "hasil",
+      "foto",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Tidak",
+      "menghasilkan",
+      "gambar",
+      "yang",
+      "tajam",
+      "atau",
+      "berkualitas"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "fitur",
+      "keamanan",
+      "yang",
+      "memadai",
+      "Rentan",
+      "terhadap",
+      "peretasan",
+      "atau",
+      "serangan",
+      "siber"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "nilai",
+      "jual",
+      "yang",
+      "baik",
+      "Sulit",
+      "untuk",
+      "mendapatkan",
+      "pengembalian",
+      "investasi",
+      "atau",
+      "keuntungan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "panduan",
+      "pengguna",
+      "yang",
+      "jelas",
+      "Sulit",
+      "untuk",
+      "memahami",
+      "cara",
+      "penggunaan",
+      "atau",
+      "instalasi",
+      "yang",
+      "benar"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "bau",
+      "atau",
+      "aroma",
+      "yang",
+      "tidak",
+      "sedap",
+      "pada",
+      "produk",
+      "ini",
+      "Tidak",
+      "nyaman",
+      "atau",
+      "mengganggu"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "resolusi",
+      "layar",
+      "atau",
+      "grafis",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Tampilan",
+      "yang",
+      "buram",
+      "atau",
+      "tidak",
+      "tajam"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "perlindungan",
+      "yang",
+      "memadai",
+      "terhadap",
+      "virus",
+      "atau",
+      "malware",
+      "Rentan",
+      "terhadap",
+      "serangan",
+      "cyber"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "tidak",
+      "ramah",
+      "terhadap",
+      "pengguna",
+      "dengan",
+      "disabilitas",
+      "Tidak",
+      "menyediakan",
+      "aksesibilitas",
+      "yang",
+      "memadai"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "tali",
+      "atau",
+      "pegangan",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Mudah",
+      "putus",
+      "atau",
+      "tidak",
+      "nyaman",
+      "digunakan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "kemudahan",
+      "dalam",
+      "proses",
+      "penginstalan",
+      "atau",
+      "penggunaan",
+      "awal",
+      "Membutuhkan",
+      "konfigurasi",
+      "yang",
+      "rumit"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "tingkat",
+      "kebisingan",
+      "yang",
+      "dihasilkan",
+      "oleh",
+      "produk",
+      "ini",
+      "Terlalu",
+      "berisik",
+      "atau",
+      "mengganggu"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "bahan",
+      "atau",
+      "komponen",
+      "elektronik",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Mudah",
+      "terbakar",
+      "atau",
+      "menyebabkan",
+      "korsleting",
+      "listrik"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "kestabilan",
+      "atau",
+      "kualitas",
+      "sinyal",
+      "yang",
+      "baik",
+      "Sering",
+      "terputus",
+      "atau",
+      "lemah",
+      "dalam",
+      "koneksi"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "kurang",
+      "inovatif",
+      "atau",
+      "tidak",
+      "mengikuti",
+      "perkembangan",
+      "teknologi",
+      "terkini"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "tahan",
+      "air",
+      "atau",
+      "tahan",
+      "debu",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Rentan",
+      "terhadap",
+      "kerusakan",
+      "akibat",
+      "air",
+      "atau",
+      "debu"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "jaminan",
+      "kualitas",
+      "yang",
+      "memadai",
+      "Tidak",
+      "ada",
+      "garansi",
+      "atau",
+      "dukungan",
+      "purna",
+      "jual"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "suhu",
+      "yang",
+      "dihasilkan",
+      "oleh",
+      "produk",
+      "ini",
+      "Terlalu",
+      "panas",
+      "atau",
+      "tidak",
+      "dapat",
+      "diatur",
+      "dengan",
+      "baik"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "bahan",
+      "baku",
+      "atau",
+      "sumber",
+      "daya",
+      "yang",
+      "digunakan",
+      "dalam",
+      "produk",
+      "ini",
+      "buruk",
+      "Tidak",
+      "ramah",
+      "lingkungan",
+      "atau",
+      "berkelanjutan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "pengalaman",
+      "pengguna",
+      "yang",
+      "intuitif",
+      "Antarmuka",
+      "atau",
+      "navigasinya",
+      "rumit",
+      "atau",
+      "tidak",
+      "user",
+      "friendly"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "kurang",
+      "terjangkau",
+      "atau",
+      "tidak",
+      "memberikan",
+      "nilai",
+      "untuk",
+      "uang",
+      "yang",
+      "dihabiskan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "baut",
+      "atau",
+      "pengunci",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Mudah",
+      "longgar",
+      "atau",
+      "sulit",
+      "untuk",
+      "dikunci",
+      "dengan",
+      "baik"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "kenyamanan",
+      "ergonomis",
+      "dalam",
+      "penggunaan",
+      "Tidak",
+      "sesuai",
+      "dengan",
+      "bentuk",
+      "atau",
+      "ukuran",
+      "tubuh"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "kecepatan",
+      "atau",
+      "performa",
+      "produk",
+      "ini",
+      "Terlalu",
+      "lambat",
+      "atau",
+      "sering",
+      "mengalami",
+      "penundaan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "karet",
+      "atau",
+      "bahan",
+      "penutup",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Mudah",
+      "rusak",
+      "atau",
+      "mengelupas",
+      "dalam",
+      "penggunaan",
+      "normal"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "perlindungan",
+      "yang",
+      "memadai",
+      "terhadap",
+      "radiasi",
+      "atau",
+      "bahaya",
+      "lainnya"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "kurang",
+      "praktis",
+      "atau",
+      "tidak",
+      "mudah",
+      "dibawa",
+      "bepergian",
+      "Terlalu",
+      "besar",
+      "atau",
+      "berat"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "tombol",
+      "atau",
+      "kontrol",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Tidak",
+      "responsif",
+      "atau",
+      "sulit",
+      "untuk",
+      "digunakan",
+      "dengan",
+      "baik"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "kompatibilitas",
+      "yang",
+      "baik",
+      "dengan",
+      "perangkat",
+      "atau",
+      "sistem",
+      "operasi",
+      "lainnya"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "sistem",
+      "pengisian",
+      "daya",
+      "pada",
+      "produk",
+      "ini",
+      "Tidak",
+      "efisien",
+      "atau",
+      "sering",
+      "terjadi",
+      "gangguan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "suara",
+      "atau",
+      "output",
+      "audio",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Tidak",
+      "jernih",
+      "atau",
+      "terdengar",
+      "terdistorsi"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "kemudahan",
+      "dalam",
+      "pemeliharaan",
+      "atau",
+      "perawatan",
+      "Sulit",
+      "untuk",
+      "membersihkan",
+      "atau",
+      "merawat",
+      "dengan",
+      "baik"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "keandalan",
+      "yang",
+      "baik",
+      "dalam",
+      "jangka",
+      "waktu",
+      "yang",
+      "panjang",
+      "Sering",
+      "mengalami",
+      "kerusakan",
+      "atau",
+      "gangguan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "desain",
+      "ergonomis",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Tidak",
+      "nyaman",
+      "digunakan",
+      "dalam",
+      "jangka",
+      "waktu",
+      "yang",
+      "lama"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "fitur",
+      "penghematan",
+      "energi",
+      "yang",
+      "memadai",
+      "Boros",
+      "dalam",
+      "penggunaan",
+      "daya",
+      "atau",
+      "baterai"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "kualitas",
+      "tali",
+      "atau",
+      "strap",
+      "pada",
+      "produk",
+      "ini",
+      "Mudah",
+      "putus",
+      "atau",
+      "tidak",
+      "dapat",
+      "menahan",
+      "beban",
+      "dengan",
+      "baik"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "penutup",
+      "atau",
+      "casing",
+      "produk",
+      "ini",
+      "buruk",
+      "Mudah",
+      "tergores",
+      "atau",
+      "pecah",
+      "dalam",
+      "penggunaan",
+      "normal"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "fitur",
+      "keamanan",
+      "fisik",
+      "yang",
+      "memadai",
+      "Rentan",
+      "terhadap",
+      "pencurian",
+      "atau",
+      "kerusakan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "merasa",
+      "produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "pengalaman",
+      "multimedia",
+      "yang",
+      "memuaskan",
+      "Kualitas",
+      "audio",
+      "atau",
+      "video",
+      "yang",
+      "rendah"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "bahan",
+      "isolasi",
+      "atau",
+      "perlindungan",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Tidak",
+      "efektif",
+      "dalam",
+      "mengisolasi",
+      "atau",
+      "melindungi",
+      "dari",
+      "bahaya",
+      "eksternal"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "fitur",
+      "konektivitas",
+      "yang",
+      "memadai",
+      "Tidak",
+      "dapat",
+      "terhubung",
+      "dengan",
+      "perangkat",
+      "lain",
+      "atau",
+      "jaringan",
+      "dengan",
+      "baik"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Saya",
+      "mengalami",
+      "masalah",
+      "dengan",
+      "sensitivitas",
+      "atau",
+      "akurasi",
+      "layar",
+      "sentuh",
+      "pada",
+      "produk",
+      "ini",
+      "Tidak",
+      "responsif",
+      "atau",
+      "sering",
+      "mengalami",
+      "kesalahan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Kualitas",
+      "jangkauan",
+      "atau",
+      "jarak",
+      "sinyal",
+      "pada",
+      "produk",
+      "ini",
+      "buruk",
+      "Terbatas",
+      "dalam",
+      "jangkauan",
+      "atau",
+      "sering",
+      "mengalami",
+      "gangguan"
+    ],
+    "sentiment": "negative"
+  },
+  {
+    "review": [
+      "Produk",
+      "ini",
+      "tidak",
+      "memberikan",
+      "kecepatan",
+      "pengiriman",
+      "atau",
+      "pengiriman",
+      "yang",
+      "baik",
+      "Lambat",
+      "dalam",
+      "memproses",
+      "pesanan",
+      "atau",
+      "mengirimkan",
+      "barang"
+    ],
+    "sentiment": "negative"
+  }
+]

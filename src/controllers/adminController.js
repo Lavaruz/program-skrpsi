@@ -7,11 +7,12 @@ const { createToken } = require("../utils/JWT");
 
 function register(req, res) {
   try {
-    const { username, password } = req.body;
+    const { username, password, role } = req.body;
     bcrypt.hash(password, 10).then((hash) => {
       Admin.create({
         username,
         password: hash,
+        role,
       }).then((respon) => {
         response(201, "success create new user", respon, res);
       });

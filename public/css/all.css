@@ -1,67 +1,74 @@
-.customTooltip * {
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
   font-family: "Inter", sans-serif;
 }
-.customTooltip .introjs-bullets ul li a.active {
-  background-color: #358f6c;
+body {
+  margin: 0;
+  background-color: #f2ead3;
 }
-.customTooltip .introjs-nextbutton {
-  background-color: #358f6c;
-  color: white;
-  text-shadow: none;
+nav {
+  padding: 0 2rem;
 }
-.customTooltip .introjs-tooltip-title {
-  color: #358f6c;
-}
-
-.load-layer,
-.complete-layer,
-.load-layer-hapus,
-.complete-layer-hapus {
-  z-index: 30;
-  background-color: rgba(0, 0, 0, 0.5);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-.load-background,
-.complete-background {
-  background-color: white;
-  padding: 3rem 5rem;
-  border-radius: 20px;
+.main-analyze {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  height: 90vh;
+  padding: 0 2rem;
 }
-.complete-background button {
-  background-color: #358f6c;
-  color: white;
-  padding: 0.5rem 3rem;
-  border-radius: 15px;
+.main-head {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.main-body input {
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  border: 0.1px solid gray;
+}
+button {
+  border-radius: 5px;
   border: none;
+  background-color: #3f2305;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
   cursor: pointer;
-  margin-top: 0.5rem;
-}
-.hide {
-  visibility: hidden;
 }
 
-.custom-loader {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: 8px solid;
-  border-color: #e4e4ed;
-  border-right-color: #358f6c;
-  animation: s2 1s infinite linear;
+/* API INFO */
+pre {
+  margin: 0;
 }
-@keyframes s2 {
-  to {
-    transform: rotate(1turn);
-  }
+.main-api {
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: white;
+}
+.api-block {
+  padding: 1rem;
+}
+.api-block h2 {
+  margin-bottom: 0;
+}
+.api-csv {
+  padding: 1rem;
+  height: 100%;
+}
+
+/* MAIN CSV */
+.main-csv {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main-csv p {
+  width: 50%;
 }
