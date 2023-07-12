@@ -6,7 +6,7 @@ const response = require("./response");
 
 async function uploadCSV(req, res) {
   try {
-    const ulasan = [];
+    const siswa = [];
     fs.createReadStream(
       path.join(
         __dirname,
@@ -21,10 +21,13 @@ async function uploadCSV(req, res) {
       csv
         .parse({ headers: true })
         .on("data", (row) => {
-          ulasan.push(row);
+          row.password = row.nis + "!##!";
+          siswa.push(row);
         })
         .on("end", () => {
-          return response(201, "add new user", ulasan, res);
+          Score.bulkCreate(siswa).then((datas) => {
+            return response(201, "add new user", datas, res);
+          });
         })
     );
   } catch (error) {

@@ -8,17 +8,18 @@
   <main>
     <div class="main-analyze">
       <div class="main-head">
-        <h1>Analyze Your Sentiment</h1>
+        <h1>Analisis Sentimentmu</h1>
         <p>
-          We're GitHub, the company behind the npm Registry and npm CLI. We
-          offer those to the community for free, but our day job is building and
-          selling useful tools for developers like you.
+          Cukup masukkan teks dalam kotak input di bawah ini, lalu klik tombol
+          "Analisis". Saya akan memberikan Anda hasil analisis sentimen teks
+          tersebut. Dengan cara ini, Anda dapat menemukan apakah teks tersebut
+          dianggap positif atau negatif.
         </p>
       </div>
       <div class="main-body">
         <form id="analyze-form">
-          <input type="text" name="review" value="bagus" />
-          <button type="submit">Analyze</button>
+          <input type="text" name="review" value="barang ini sangat bagus" />
+          <button type="submit">Analisis</button>
         </form>
       </div>
     </div>
@@ -26,22 +27,26 @@
     <!-- API INFO -->
     <div class="main-api">
       <div class="api-block">
-        <h2>Memanggil POST analyze endpoint</h2>
+        <h2>Ingin Menggunakan API Ini?</h2>
         <p>
           berikut cara memanggil API menggunakan bahasa pemrograman javascript
           dengan fetch API:
         </p>
         <pre>
           <code>
+            // Masukan ulasan yang ingin coba di analisis
             const requestBody = {
               review: "Ulasan sebuah produk"
             };
             
+            // Lakukan Fetch ke API Endpoint yang disediakan
             fetch('http://localhost:3000/api/analyze', {
+              // Resuest yang digunakan berupa POST
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json'
               },
+              // Jangan lupa tabahkan body ke dalam request
               body: JSON.stringify(requestBody)
             })
               .then(response => response.json())
@@ -64,13 +69,12 @@
       </div>
     </div>
     <div class="main-csv">
-      <h2>Multiple analyze with CSV</h2>
+      <h2>Analisis Multiple Data Menggunakan CSV Format</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, qui.
-        Commodi rerum facilis aut esse magni voluptatem aliquam temporibus
-        excepturi blanditiis molestiae tenetur, tempora, ea magnam consequatur
-        aliquid quia asperiores?
+        Ingin menganalisis data sekaligus banyak? tidak perlu khawatir, upload
+        data CSV mu disini dan akan saya analsis tiap tiap ulasannya
       </p>
+      <p style="font-size: 0.8rem">*CSV hasrus memiliki header "ulasan"</p>
       <form id="fileUpload">
         <input type="file" name="review" />
         <button type="submit">Analyze</button>
@@ -96,94 +100,15 @@
   <!-- HISTORY ANALYZE -->
   <div class="analyze-history">
     <h2>History Analisis</h2>
+    <table id="historyTable">
+      <thead>
+        <th>No</th>
+        <th>Ulasan</th>
+        <th>Sentiment</th>
+        <th>Tanggal dibuat</th>
+      </thead>
+    </table>
   </div>
 </body>
-<script>
-  $(document).ready(() => {
-    $("#analyze-form").submit(function (e) {
-      e.preventDefault();
-      const form = new FormData(document.getElementById("analyze-form"));
-      $.ajax({
-        url: "/api/analyze",
-        type: "POST",
-        data: form,
-        async: false,
-        cache: false,
-        contentType: false,
-        encrypt: "multipart/form-data",
-        processData: false,
-        success: (response) => {
-          $(".analyze-bg").html("");
-          $(".analyze-bg").prepend([
-            `
-              <p>ulasan: "${response.ulasan}"</p>
-              ${
-                response.sentiment == "positive"
-                  ? `<p>hasil: <b style="color: green">${response.sentiment}</b></p>`
-                  : `<p>hasil: <b style="color: red">${response.sentiment}</b></p>`
-              }
-              <button class="analyze-button">OK</button>
-            `,
-          ]);
-          $(".analyze-layer").css("visibility", "visible");
-        },
-      });
-    });
-    $(".analyze-layer").on("click", ".analyze-button", function () {
-      $(".analyze-layer").css("visibility", "hidden");
-    });
-
-    // ANALYZE ACCURACY
-    const url = "/api/analyze";
-    let datas;
-    $.get(url, async (data, status) => {
-      if (status == "success") {
-        $(".api-accuracy-result").append([`<h1>${data}</h1>`]);
-      }
-    });
-
-    //CSV ANALYZE
-    $(".analyze-bg-csv .close").click(function () {
-      $(".analyze-layer-csv").css("visibility", "hidden");
-    });
-    const fileUpload = document.getElementById("fileUpload");
-    fileUpload.addEventListener("submit", (e) => {
-      e.preventDefault();
-      let formData = new FormData(fileUpload);
-
-      $.ajax({
-        url: "/api/analyze/csv",
-        type: "POST",
-        data: formData,
-        async: false,
-        cache: false,
-        contentType: false,
-        encrypt: "multipart/form-data",
-        processData: false,
-        success: (response) => {
-          $(".analyze-layer-csv").css("visibility", "visible");
-          $("#ulasanTable").DataTable({
-            data: response,
-            pageLength: 5,
-            lengthMenu: [
-              [20, 50, 100, 200, -1],
-              [20, 50, 100, 200, "Semua"],
-            ],
-            columns: [
-              {
-                data: null,
-                render: function (data, type, row, meta) {
-                  return meta.row + meta.settings._iDisplayStart + 1;
-                },
-              },
-              { data: "ulasan" },
-              { data: "result" },
-            ],
-          });
-        },
-      });
-    });
-  });
-  hljs.highlightAll();
-</script>
+<script src="/js/analyzePage.js"></script>
 <%- include('./layouts/footer'); -%>

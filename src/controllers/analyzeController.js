@@ -2,10 +2,10 @@ const natural = require("natural");
 const tokenizer = new natural.WordTokenizer();
 const stopwords = require("natural/lib/natural/util/stopwords_id");
 const processedData = require("../../data/output.json");
-const response = require("./response");
 const csv = require("fast-csv");
 const fs = require("fs");
 const path = require("path");
+const { History } = require("../models");
 
 const totalTrainingExamples = processedData.length;
 const classCounts = {};
@@ -98,9 +98,14 @@ function calculateAccuracy(predictions, labels) {
 async function analyzeRequest(req, res) {
   const review = req.body.review;
   const predictedSentiment = classify(review);
-  res.json({
+  await History.create({
     ulasan: review,
     sentiment: predictedSentiment,
+  }).then(() => {
+    res.json({
+      ulasan: review,
+      sentiment: predictedSentiment,
+    });
   });
 }
 
@@ -141,9 +146,10 @@ async function uploadCSV(req, res) {
           let obj = ulasan.map((ulas, index) => {
             return {
               ulasan: ulas.ulasan,
-              result: list_ulasan[index],
+              sentiment: list_ulasan[index],
             };
           });
+          History.bulkCreate(obj);
 
           res.json(obj);
         })
@@ -155,10 +161,20 @@ async function uploadCSV(req, res) {
   }
 }
 
+async function getHistory(req, res) {
+  try {
+    await History.findAll().then((result) => {
+      res.send(result);
+    });
+  } catch (error) {
+    res.json({ error: error.message });
+  }
+}
 module.exports = {
   analyzeRequest,
   analyzeAccuracy,
   uploadCSV,
+  getHistory,
 };
 
 // Contoh pengujian pada data uji
