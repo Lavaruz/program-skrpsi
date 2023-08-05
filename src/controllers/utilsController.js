@@ -3,6 +3,9 @@ const fs = require("fs");
 const path = require("path");
 const { Score, Exam } = require("../models");
 const response = require("./response");
+let pdf = require("pdf-creator-node");
+const { History } = require("../models");
+const { Op } = require("sequelize");
 
 async function uploadCSV(req, res) {
   try {
@@ -102,7 +105,47 @@ async function exportCSV(req, res) {
   writableStream.end();
 }
 
+async function exportPDF(req, res) {
+  try {
+    let users = req.body;
+    let html = fs.readFileSync("public/files/uploads/members.html", "utf8");
+    var options = {
+      format: "A3",
+      orientation: "portrait",
+      border: "10mm",
+    };
+    const date = new Date();
+    let today = date.toLocaleString("id-ID", {
+      dateStyle: "full",
+    });
+    users.forEach((e, index) => {
+      e.id = index + 1;
+    });
+    console.log(users);
+    var document = {
+      html: html,
+      data: {
+        users,
+        today,
+      },
+      path: `public/files/exports/output.pdf`,
+      type: "",
+    };
+    pdf
+      .create(document, options)
+      .then((result) => {
+        res.json({ downloadURL: `public/files/exports/output.pdf` });
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  } catch (error) {
+    response(500, "server failed to create pdf", { error: error.message }, res);
+  }
+}
+
 module.exports = {
   uploadCSV,
   exportCSV,
+  exportPDF,
 };

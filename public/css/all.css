@@ -100,7 +100,7 @@ pre code.hljs {
 
 /* MAIN CSV */
 .main-csv {
-  padding: 5rem 2rem;
+  padding: 10rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -152,6 +152,7 @@ pre code.hljs {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 5;
 }
 .analyze-bg-csv {
   display: flex;
@@ -164,9 +165,9 @@ pre code.hljs {
   position: relative;
 }
 .analyze-bg-csv .close {
+  z-index: 6;
   position: absolute;
-  top: -15px;
-  right: -15px;
+  top: 10px;
   cursor: pointer;
   background-color: #3f2305;
   color: #f5f5f5;
@@ -176,6 +177,22 @@ pre code.hljs {
   border-radius: 100%;
   width: 30px;
   height: 30px;
+}
+.analyze-resume {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.analyze-resume p {
+  margin: 0.15rem 0;
+}
+.analyze-resume-result {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.analyze-report-calc p {
+  margin: 0.2rem 0;
 }
 
 /* HISTORY */

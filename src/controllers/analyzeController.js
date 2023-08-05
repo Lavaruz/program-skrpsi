@@ -1,18 +1,19 @@
 const natural = require("natural");
 const tokenizer = new natural.WordTokenizer();
 const stopwords = require("natural/lib/natural/util/stopwords_id");
-const processedData = require("../../data/output.json");
+const train_data = require("../../data/train_data.json");
+const test_data = require("../../data/test_data.json");
 const csv = require("fast-csv");
 const fs = require("fs");
 const path = require("path");
 const { History } = require("../models");
 
-const totalTrainingExamples = processedData.length;
+const totalTrainingExamples = train_data.length;
 const classCounts = {};
 const wordCounts = {};
 const classWordCounts = {};
 
-processedData.forEach((item) => {
+train_data.forEach((item) => {
   const { review, sentiment } = item;
 
   if (!classCounts[sentiment]) {
@@ -110,11 +111,11 @@ async function analyzeRequest(req, res) {
 }
 
 async function analyzeAccuracy(req, res) {
-  const predictions = processedData.map((item) => {
+  const predictions = test_data.map((item) => {
     return classify(item.review.join(" "));
   });
-  // Mendapatkan label sebenarnya dari setiap processedData
-  const labels = processedData.map((item) => item.sentiment);
+  // Mendapatkan label sebenarnya dari setiap train_data
+  const labels = test_data.map((item) => item.sentiment);
   // Menghitung akurasi
   const accuracy = calculateAccuracy(predictions, labels);
   res.send(`${accuracy}%`);
@@ -163,11 +164,68 @@ async function uploadCSV(req, res) {
 
 async function getHistory(req, res) {
   try {
-    await History.findAll().then((result) => {
+    await History.findAll({
+      order: [["createdAt", "DESC"]],
+    }).then((result) => {
       res.send(result);
     });
   } catch (error) {
     res.json({ error: error.message });
+  }
+}
+
+function calculateConfusionMatrix(testData) {
+  const confusionMatrix = {
+    truePositive: 0,
+    trueNegative: 0,
+    falsePositive: 0,
+    falseNegative: 0,
+  };
+
+  testData.forEach((item) => {
+    const { sentiment } = item;
+    const predictedSentiment = classify(item.review.join(" "));
+
+    if (predictedSentiment === sentiment) {
+      if (sentiment === "positive") {
+        confusionMatrix.truePositive++;
+      } else {
+        confusionMatrix.trueNegative++;
+      }
+    } else {
+      if (sentiment === "positive") {
+        confusionMatrix.falseNegative++;
+      } else {
+        confusionMatrix.falsePositive++;
+      }
+    }
+  });
+
+  return confusionMatrix;
+}
+
+function calculateAccuracyFromConfusionMatrix(confusionMatrix) {
+  const { truePositive, trueNegative, falsePositive, falseNegative } =
+    confusionMatrix;
+  const totalExamples =
+    truePositive + trueNegative + falsePositive + falseNegative;
+  const accuracy = (truePositive + trueNegative) / totalExamples;
+  return accuracy * 100;
+}
+async function analyzeAccuracy(req, res) {
+  try {
+    const testData = test_data;
+    const confusionMatrix = calculateConfusionMatrix(testData);
+    const accuracy = calculateAccuracyFromConfusionMatrix(confusionMatrix);
+
+    res.json({
+      confusionMatrix,
+      accuracy: `${accuracy.toFixed(2)}%`,
+    });
+  } catch (error) {
+    res.status(400).json({
+      error: error.message,
+    });
   }
 }
 module.exports = {
