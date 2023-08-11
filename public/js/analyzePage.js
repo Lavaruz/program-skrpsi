@@ -1,4 +1,5 @@
 $(document).ready(() => {
+  let ulasanTable
   // GET HISTORY
   $.get("/api/analyze/history", async (data, status) => {
     if (status == "success") {
@@ -64,6 +65,7 @@ $(document).ready(() => {
   });
   $(".analyze-layer").on("click", ".analyze-button", function () {
     $(".analyze-layer").css("visibility", "hidden");
+    dataTable.destroy();
   });
 
   // ANALYZE ACCURACY
@@ -82,6 +84,9 @@ $(document).ready(() => {
 
   //CSV ANALYZE
   $(".analyze-bg-csv .close").click(function () {
+    ulasanTable.clear();
+    ulasanTable.destroy();
+    $("#cetak-laporan").html("")
     $(".analyze-layer-csv").css("visibility", "hidden");
   });
   $(".analyze-bg-csv").on("submit", "#cetak-laporan", function (e) {
@@ -140,26 +145,33 @@ $(document).ready(() => {
               <p>Kesimpulan:</p>
               <p>
               Berdasarkan analisis sentimen terhadap file CSV yang berisi ulasan-ulasan produk, dapat disimpulkan bahwa mayoritas pengguna memberikan feedback ${
-                positive.length > negative.length ? "positif" : "negatif"
+                positive.length > negative.length ? "<b>positif</b>" : "<b>negatif</b>"
               } terhadap produk yang diulas. Sentimen ${
-            positive.length > negative.length ? "positif" : "negatif"
+            positive.length > negative.length ? "<b>positif</b>" : "<b>negatif</b>"
           } mendominasi dan menyumbang sekitar ${
             positive.length > negative.length
               ? ((positive.length / response.length) * 100).toFixed(2)
               : ((negative.length / response.length) * 100).toFixed(2)
-          }% dari seluruh ulasan yang ada. Hal ini menunjukkan kepuasan pengguna terhadap produk yang mereka beli. Meskipun ada beberapa ulasan dengan sentimen ${
-            positive.length < negative.length ? "positif" : "negatif"
+          }% dari seluruh ulasan yang ada. Hal ini menunjukkan ${
+            positive.length > negative.length ? "kepuasan" : "ketidakpuasan"
+          } pengguna terhadap produk yang mereka beli. Meskipun ada beberapa ulasan dengan sentimen ${
+            positive.length < negative.length ? "<b>positif</b>" : "<b>negatif</b>"
           }, namun proporsinya relatif lebih rendah.</p>
+          <p>Dengan begitu, produk-produk yang diulas dalam data ini memiliki reputasi yang ${
+            positive.length > negative.length ? "<b>positif</b>" : "<b>negatif</b>"
+          } di kalangan pengguna, namun perlu tetap memperhatikan ulasan dengan sentimen ${
+            positive.length < negative.length ? "<b>positif</b>" : "<b>negatif</b>"
+          } untuk meningkatkan kualitas dan kepuasan pelanggan.</p>
             </div>
           </form>
           `,
         ]);
-        $("#ulasanTable").DataTable({
+        ulasanTable = $("#ulasanTable").DataTable({
           data: response,
-          pageLength: 5,
+          pageLength: 3,
           lengthMenu: [
-            [20, 50, 100, 200, -1],
-            [20, 50, 100, 200, "Semua"],
+            [3],
+            [3],
           ],
           columns: [
             {
@@ -170,6 +182,16 @@ $(document).ready(() => {
             },
             { data: "ulasan" },
             { data: "sentiment" },
+            {
+              data: null,
+              render: function () {
+                const today = new Date();
+                const formattedDate = today.toLocaleString("id-ID", {
+                  dateStyle: "medium",
+                });
+                return formattedDate;
+              },
+            },
           ],
         });
       },

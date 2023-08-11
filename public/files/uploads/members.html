@@ -47,6 +47,12 @@
         display: flex;
         justify-content: flex-end;
       }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left; /* Mengatur konten menjadi pusat secara horizontal */
+      }
     </style>
   </head>
   <body>
@@ -61,11 +67,13 @@
           <th>No</th>
           <th>Ulasan</th>
           <th>Sentimen</th>
+          <th>Tanggal Dibuat</th>
         </tr>
       </thead>
       <tbody>
         {{#ifCond users.length '==' '0'}}
         <tr>
+          <td>Tidak ada data ulasan</td>
           <td>Tidak ada data ulasan</td>
           <td>Tidak ada data ulasan</td>
           <td>Tidak ada data ulasan</td>
@@ -75,6 +83,7 @@
           <td>{{this.id}}</td>
           <td>{{this.ulasan}}</td>
           <td>{{this.sentiment}}</td>
+          <td>{{this.date}}</td>
         </tr>
         {{/each}} {{/ifCond}}
       </tbody>

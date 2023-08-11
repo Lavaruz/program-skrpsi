@@ -120,6 +120,7 @@ async function exportPDF(req, res) {
     });
     users.forEach((e, index) => {
       e.id = index + 1;
+      e.date = today
     });
     console.log(users);
     var document = {
@@ -133,7 +134,7 @@ async function exportPDF(req, res) {
     };
     pdf
       .create(document, options)
-      .then((result) => {
+      .then(() => {
         res.json({ downloadURL: `public/files/exports/output.pdf` });
       })
       .catch((error) => {
