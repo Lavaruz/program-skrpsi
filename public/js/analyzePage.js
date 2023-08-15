@@ -26,6 +26,7 @@ $(document).ready(() => {
           { data: "sentiment" },
           {
             data: "createdAt",
+            width: "200px",
             render: function (data, type) {
               return data.substring(0, 10);
             },
