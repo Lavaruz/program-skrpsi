@@ -259,5 +259,15 @@ table.customTable thead {
 
 .table-csv{
   overflow-y: scroll;
-  height: 150px;
+  height: 180px;
+}
+.table-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 1rem;
+}
+.table-head input{
+  padding: .5rem;
+  border-radius: 5px;
 }

@@ -1,6 +1,8 @@
 $(document).ready(() => {
-  let ulasanTable
-  // GET HISTORY
+  let idx_table = 0
+  let data_csv = [];
+
+  // Menampilkan history ke dalam page
   $.get("/api/analyze/history", async (data, status) => {
     if (status == "success") {
       $("#historyTable").DataTable({
@@ -33,6 +35,7 @@ $(document).ready(() => {
     }
   });
 
+  // malekukan analisis terhadap single input
   $("#analyze-form").submit(function (e) {
     e.preventDefault();
     const form = new FormData(document.getElementById("analyze-form"));
@@ -62,12 +65,13 @@ $(document).ready(() => {
       },
     });
   });
+
+  // Close popup analisis single input
   $(".analyze-layer").on("click", ".analyze-button", function () {
     $(".analyze-layer").css("visibility", "hidden");
-    dataTable.destroy();
   });
 
-  // ANALYZE ACCURACY
+  // Mendapatkan akurasi dan menampilkan dalam page
   const url = "/api/analyze";
   $.get(url, async (data, status) => {
     if (status == "success") {
@@ -78,13 +82,15 @@ $(document).ready(() => {
     }
   });
 
-  let data_csv = [];
-
-  //CSV ANALYZE
+  //Tutup hasil ulasan file csv
   $(".analyze-bg-csv .close").click(function () {
-    $("#cetak-laporan").html("")
+    $("#cetak-laporan").remove()
+    $(".analyze-resume").remove()
+    $(".customTable tbody").html("")
     $(".analyze-layer-csv").css("visibility", "hidden");
   });
+
+  // Download data table dalam ulasan csv
   $(".analyze-bg-csv").on("submit", "#cetak-laporan", function (e) {
     e.preventDefault();
     let data = JSON.stringify(data_csv);
@@ -98,6 +104,8 @@ $(document).ready(() => {
       },
     });
   });
+
+  // upload file csv dan menampilkan result popup
   const fileUpload = document.getElementById("fileUpload");
   fileUpload.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -147,16 +155,19 @@ $(document).ready(() => {
             <button>Cetak Data Tabel</button>
           </form>
         `)
+        idx_table = 0
 
         for (const bulan in groupedByMonth) {
+          idx_table += 1
           const ulasanPerBulan = groupedByMonth[bulan];
           let pos = ulasanPerBulan.filter((e) => e.sentiment == "positive");
           let neg = ulasanPerBulan.filter((e) => e.sentiment == "negative");
           let pos_perc = ((pos.length / ulasanPerBulan.length) * 100).toFixed(2)
           let neg_perc = ((neg.length / ulasanPerBulan.length) * 100).toFixed(2)
 
-          $(".customTable").append(`
+          $(".customTable tbody").append(`
           <tr>
+            <td>${idx_table}</td>
             <td>${bulan}</td>
             <td>${ulasanPerBulan.length} Ulasan</td>
             <td>${pos.length} Sentimen Positif (${pos_perc}%)</td>
@@ -165,6 +176,26 @@ $(document).ready(() => {
           </tr>
           `)
         }
+
+        // Melakukan search table
+        $("#searchInput").on("input", function() {
+          const searchText = $(this).val().toLowerCase();
+          $(".customTable tbody tr").each(function() {
+            const row = $(this);
+            const columns = row.find("td");
+            let found = false;
+      
+            columns.each(function() {
+              if ($(this).text().toLowerCase().includes(searchText)) {
+                found = true;
+                return false; // Exit the loop early
+              }
+            });
+      
+            row.toggle(found);
+          });
+        });
+        
       },
     });
   });

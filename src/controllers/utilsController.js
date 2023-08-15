@@ -120,9 +120,20 @@ async function exportPDF(req, res) {
     });
     users.forEach((e, index) => {
       e.id = index + 1;
-      e.date = e.bulan
     });
-    console.log(users);
+
+    // const groupedByDate = users.reduce((result, current) => {
+    //   const bulan = current.bulan;
+    //   if (!result[bulan]) {
+    //     result[bulan] = [];
+    //   }
+    //   result[bulan].push(current);
+    //   return result;
+    // }, {});
+    
+    // const arrayOfArrays = Object.values(groupedByDate);
+    // console.log(arrayOfArrays);
+
     var document = {
       html: html,
       data: {
