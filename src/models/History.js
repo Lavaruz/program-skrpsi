@@ -1,6 +1,6 @@
 module.exports = (sequelize, DataTypes) => {
   const History = sequelize.define("History", {
-    ulasan: DataTypes.STRING,
+    ulasan: DataTypes.TEXT,
     sentiment: DataTypes.STRING,
   });
   return History;

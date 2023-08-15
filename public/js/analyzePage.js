@@ -3,7 +3,6 @@ $(document).ready(() => {
   // GET HISTORY
   $.get("/api/analyze/history", async (data, status) => {
     if (status == "success") {
-      console.log(data);
       $("#historyTable").DataTable({
         ajax: {
           url: "/api/analyze/history",
@@ -70,7 +69,6 @@ $(document).ready(() => {
 
   // ANALYZE ACCURACY
   const url = "/api/analyze";
-  let datas;
   $.get(url, async (data, status) => {
     if (status == "success") {
       let confussion_matrix = data.confusionMatrix;
@@ -84,8 +82,6 @@ $(document).ready(() => {
 
   //CSV ANALYZE
   $(".analyze-bg-csv .close").click(function () {
-    ulasanTable.clear();
-    ulasanTable.destroy();
     $("#cetak-laporan").html("")
     $(".analyze-layer-csv").css("visibility", "hidden");
   });
@@ -117,83 +113,58 @@ $(document).ready(() => {
       encrypt: "multipart/form-data",
       processData: false,
       success: (response) => {
+        const groupedByMonth = {};
         data_csv = response;
+        
+        response.forEach(item => {
+          if (!groupedByMonth[item.bulan]) {
+            groupedByMonth[item.bulan] = [];
+          }
+          groupedByMonth[item.bulan].push(item);
+        });
+
         let positive = response.filter((e) => e.sentiment == "positive");
         let negative = response.filter((e) => e.sentiment == "negative");
         $(".analyze-layer-csv").css("visibility", "visible");
         $(".analyze-bg-csv").prepend([
           `
-          <form id="cetak-laporan">
             <div class="analyze-resume">
               <div class="analyze-resume-result">
                 <p><b>Resume</b></p>
-                <button>Cetak Table</button>
               </div>
-              <div class="analyze-report-calc" style="margin:1rem 0">
-                <b>Jumlah total ulasan: ${response.length}</b>
-                <p style="color: green;">Jumlah ulasan dengan sentimen positif: ${
-                  positive.length
-                } (${((positive.length / response.length) * 100).toFixed(
-            2
-          )}%)</p>
-                <p style="color: red;">Jumlah ulasan dengan sentimen negatif: ${
-                  negative.length
-                } (${((negative.length / response.length) * 100).toFixed(
-            2
-          )}%)</p>
+              <div class="analyze-report-calc">
+                <b>Total Seluruh Ulasan dalam File: ${response.length}</b>
+                <p>Sentimen Positif Ditemukan: ${positive.length} (${((positive.length / response.length) * 100).toFixed(2)}%)</p>
+                <p>Sentimen Negatif Ditemukan: ${negative.length} (${((negative.length / response.length) * 100).toFixed(2)}%)</p>
+                <p>Overall Sentimen: ${positive.length>negative.length?"<b>Positive</b>":"<b>Negative</b>"}</p>
               </div>
-              <p>Kesimpulan:</p>
-              <p>
-              Berdasarkan analisis sentimen terhadap file CSV yang berisi ulasan-ulasan produk, dapat disimpulkan bahwa mayoritas pengguna memberikan feedback ${
-                positive.length > negative.length ? "<b>positif</b>" : "<b>negatif</b>"
-              } terhadap produk yang diulas. Sentimen ${
-            positive.length > negative.length ? "<b>positif</b>" : "<b>negatif</b>"
-          } mendominasi dan menyumbang sekitar ${
-            positive.length > negative.length
-              ? ((positive.length / response.length) * 100).toFixed(2)
-              : ((negative.length / response.length) * 100).toFixed(2)
-          }% dari seluruh ulasan yang ada. Hal ini menunjukkan ${
-            positive.length > negative.length ? "kepuasan" : "ketidakpuasan"
-          } pengguna terhadap produk yang mereka beli. Meskipun ada beberapa ulasan dengan sentimen ${
-            positive.length < negative.length ? "<b>positif</b>" : "<b>negatif</b>"
-          }, namun proporsinya relatif lebih rendah.</p>
-          <p>Dengan begitu, produk-produk yang diulas dalam data ini memiliki reputasi yang ${
-            positive.length > negative.length ? "<b>positif</b>" : "<b>negatif</b>"
-          } di kalangan pengguna, namun perlu tetap memperhatikan ulasan dengan sentimen ${
-            positive.length < negative.length ? "<b>positif</b>" : "<b>negatif</b>"
-          } untuk meningkatkan kualitas dan kepuasan pelanggan.</p>
             </div>
-          </form>
           `,
         ]);
-        ulasanTable = $("#ulasanTable").DataTable({
-          data: response,
-          pageLength: 3,
-          lengthMenu: [
-            [3],
-            [3],
-          ],
-          columns: [
-            {
-              data: null,
-              render: function (data, type, row, meta) {
-                return meta.row + meta.settings._iDisplayStart + 1;
-              },
-            },
-            { data: "ulasan" },
-            { data: "sentiment" },
-            {
-              data: null,
-              render: function () {
-                const today = new Date();
-                const formattedDate = today.toLocaleString("id-ID", {
-                  dateStyle: "medium",
-                });
-                return formattedDate;
-              },
-            },
-          ],
-        });
+        $(".analyze-bg-csv").append(`
+          <form id="cetak-laporan">
+            <p class="text-secondary">*Cetak tabel untuk mengetahui lebih detail terkait analisis</p>
+            <button>Cetak Data Tabel</button>
+          </form>
+        `)
+
+        for (const bulan in groupedByMonth) {
+          const ulasanPerBulan = groupedByMonth[bulan];
+          let pos = ulasanPerBulan.filter((e) => e.sentiment == "positive");
+          let neg = ulasanPerBulan.filter((e) => e.sentiment == "negative");
+          let pos_perc = ((pos.length / ulasanPerBulan.length) * 100).toFixed(2)
+          let neg_perc = ((neg.length / ulasanPerBulan.length) * 100).toFixed(2)
+
+          $(".customTable").append(`
+          <tr>
+            <td>${bulan}</td>
+            <td>${ulasanPerBulan.length} Ulasan</td>
+            <td>${pos.length} Sentimen Positif (${pos_perc}%)</td>
+            <td>${neg.length} Sentimen Negatif (${neg_perc}%)</td>
+            <td>${pos_perc>neg_perc?"Positif":"Negatif"}</td>
+          </tr>
+          `)
+        }
       },
     });
   });

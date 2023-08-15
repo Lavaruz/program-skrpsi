@@ -53,6 +53,9 @@
         padding: 8px;
         text-align: left; /* Mengatur konten menjadi pusat secara horizontal */
       }
+      .date{
+        width: max-content;
+      }
     </style>
   </head>
   <body>
@@ -83,7 +86,7 @@
           <td>{{this.id}}</td>
           <td>{{this.ulasan}}</td>
           <td>{{this.sentiment}}</td>
-          <td>{{this.date}}</td>
+          <td class="date">{{this.date}}</td>
         </tr>
         {{/each}} {{/ifCond}}
       </tbody>

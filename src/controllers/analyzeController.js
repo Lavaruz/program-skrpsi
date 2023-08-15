@@ -148,10 +148,10 @@ async function uploadCSV(req, res) {
             return {
               ulasan: ulas.ulasan,
               sentiment: list_ulasan[index],
+              bulan: ulas.bulan
             };
           });
           History.bulkCreate(obj);
-
           res.json(obj);
         })
     );
@@ -212,6 +212,7 @@ function calculateAccuracyFromConfusionMatrix(confusionMatrix) {
   const accuracy = (truePositive + trueNegative) / totalExamples;
   return accuracy * 100;
 }
+
 async function analyzeAccuracy(req, res) {
   try {
     const testData = test_data;

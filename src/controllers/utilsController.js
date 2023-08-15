@@ -120,7 +120,7 @@ async function exportPDF(req, res) {
     });
     users.forEach((e, index) => {
       e.id = index + 1;
-      e.date = today
+      e.date = e.bulan
     });
     console.log(users);
     var document = {

@@ -75,7 +75,7 @@
         Ingin menganalisis data sekaligus banyak? tidak perlu khawatir, upload
         data CSV mu disini dan akan saya analsis tiap tiap ulasannya
       </p>
-      <p style="font-size: 0.8rem">*CSV hasrus memiliki header "ulasan"</p>
+      <p style="font-size: 0.8rem">*CSV hasrus memiliki header "ulasan" dan "bulan"</p>
       <form id="fileUpload">
         <input type="file" name="review" />
         <button type="submit">Analyze</button>
@@ -88,14 +88,24 @@
   <div class="analyze-layer-csv">
     <div class="analyze-bg-csv">
       <span class="close">X</span>
-      <table id="ulasanTable" style="width: 100%">
-        <thead>
-          <th>No</th>
-          <th>Ulasan</th>
-          <th>Sentiment</th>
-          <th>Tanggal Dibuat</th>
-        </thead>
-      </table>
+      <div class="table-csv">
+        <table class="customTable" style="width: 100%;">
+          <thead>
+            <tr>
+              <th>Bulan</th>
+              <th>Jumlah Data</th>
+              <th>Persentasi Positif</th>
+              <th>Persentasi Negatif</th>
+              <th>Overall</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+      <!-- Generated at CSSPortal.com -->
+      
+      
     </div>
   </div>
 
